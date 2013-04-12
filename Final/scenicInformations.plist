@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<array>
+		<string>鼓浪屿</string>
+		<string>中山路</string>
+		<string>南普陀</string>
+		<string>厦门大学</string>
+		<string>厦门园林植物园</string>
+		<string>南华路</string>
+		<string>环岛路</string>
+		<string>观音山</string>
+		<string>厦门铁道文化公园</string>
+		<string>陈嘉庚纪念馆</string>
+		<string>海湾公园</string>
+		<string>集美学村</string>
+	</array>
+	<key>grade</key>
+	<array>
+		<integer>5</integer>
+		<integer>4</integer>
+	</array>
+	<key>detail</key>
+	<array>
+		<string>环岛路</string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>pictures</key>
+	<array/>
+</dict>
+</plist>
