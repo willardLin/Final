@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB317185C6800654214 /* ScenicDetailBase.m */; };
+		5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */; };
 		84AA7A911717F6740006092F /* ScenicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA7A901717F6740006092F /* ScenicDetailViewController.m */; };
-		84AA7A941717F89E0006092F /* GulangyuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA7A931717F89E0006092F /* GulangyuViewController.m */; };
 		84D2FF4A17092C6400F20E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF4917092C6400F20E72 /* UIKit.framework */; };
 		84D2FF4C17092C6400F20E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF4B17092C6400F20E72 /* Foundation.framework */; };
 		84D2FF4E17092C6400F20E72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF4D17092C6400F20E72 /* CoreGraphics.framework */; };
@@ -36,10 +37,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CCB5BB217185C6800654214 /* ScenicDetailBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailBase.h; sourceTree = "<group>"; };
+		5CCB5BB317185C6800654214 /* ScenicDetailBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailBase.m; sourceTree = "<group>"; };
+		5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailGulangyu.h; sourceTree = "<group>"; };
+		5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailGulangyu.m; sourceTree = "<group>"; };
 		84AA7A8F1717F6740006092F /* ScenicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailViewController.h; sourceTree = "<group>"; };
 		84AA7A901717F6740006092F /* ScenicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailViewController.m; sourceTree = "<group>"; };
-		84AA7A921717F89E0006092F /* GulangyuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GulangyuViewController.h; sourceTree = "<group>"; };
-		84AA7A931717F89E0006092F /* GulangyuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GulangyuViewController.m; sourceTree = "<group>"; };
 		84AA7A961717F8FB0006092F /* ScenicDetailWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailWords.h; sourceTree = "<group>"; };
 		84D2FF4617092C6400F20E72 /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D2FF4917092C6400F20E72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -95,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				84AA7A951717F8AA0006092F /* 鼓浪屿 */,
+				5CCB5BB217185C6800654214 /* ScenicDetailBase.h */,
+				5CCB5BB317185C6800654214 /* ScenicDetailBase.m */,
 				84AA7A8F1717F6740006092F /* ScenicDetailViewController.h */,
 				84AA7A901717F6740006092F /* ScenicDetailViewController.m */,
 			);
@@ -104,8 +109,8 @@
 		84AA7A951717F8AA0006092F /* 鼓浪屿 */ = {
 			isa = PBXGroup;
 			children = (
-				84AA7A921717F89E0006092F /* GulangyuViewController.h */,
-				84AA7A931717F89E0006092F /* GulangyuViewController.m */,
+				5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */,
+				5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */,
 			);
 			name = "鼓浪屿";
 			sourceTree = "<group>";
@@ -297,7 +302,8 @@
 				84D2FFA21709765100F20E72 /* ScenicViewController.m in Sources */,
 				84D2FFA7170978AA00F20E72 /* ScenicInformations.m in Sources */,
 				84AA7A911717F6740006092F /* ScenicDetailViewController.m in Sources */,
-				84AA7A941717F89E0006092F /* GulangyuViewController.m in Sources */,
+				5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */,
+				5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

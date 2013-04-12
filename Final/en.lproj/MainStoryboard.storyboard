@@ -38,7 +38,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <connections>
-                                    <segue destination="3c5-bm-nrw" kind="push" identifier="DetailInformation" id="BMg-7i-7F2"/>
+                                    <segue destination="zmO-rx-ocU" kind="push" identifier="DetailInformation" id="NLD-6h-Nre"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -51,7 +51,42 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HOZ-Se-M8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1483" y="-398"/>
+            <point key="canvasLocation" x="-1461" y="-398"/>
+        </scene>
+        <!--Scenic Detail View Controller-->
+        <scene sceneID="md8-IR-DQh">
+            <objects>
+                <viewController id="zmO-rx-ocU" customClass="ScenicDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XIi-Kb-ETz">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8mX-vX-nRL">
+                                <rect key="frame" x="20" y="20" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qJ0-Uq-aAq">
+                                <rect key="frame" x="44" y="49" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jed-2A-KX2"/>
+                    <connections>
+                        <outlet property="scenicName" destination="8mX-vX-nRL" id="6Ta-Om-jPv"/>
+                        <outlet property="scenicSubName" destination="qJ0-Uq-aAq" id="UAt-WK-mVF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XYF-sZ-xpv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1010" y="-402"/>
         </scene>
         <!--View Controller - 美食-->
         <scene sceneID="hef-9o-p0P">
@@ -132,43 +167,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z6e-fz-lF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1483" y="190"/>
-        </scene>
-        <!--Scenic Detail View Controller - 景点-->
-        <scene sceneID="iZn-pj-QNP">
-            <objects>
-                <viewController storyboardIdentifier="ScenicDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3c5-bm-nrw" customClass="ScenicDetailViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="4hK-Hc-9eq">
-                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wfM-oP-RLZ">
-                                <rect key="frame" x="20" y="20" width="97" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="riL-9Z-Ra6">
-                                <rect key="frame" x="31" y="49" width="86" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="rMB-IY-Kzq"/>
-                    <navigationItem key="navigationItem" title="景点" id="5z5-35-FZn"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <outlet property="scenicName" destination="wfM-oP-RLZ" id="edW-Wv-ZUR"/>
-                        <outlet property="scenicSubName" destination="riL-9Z-Ra6" id="Zjt-w3-a0o"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ia5-As-uce" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1015" y="-398"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JE6-jg-YrY">
@@ -294,6 +292,18 @@
         <image name="hotel.png" width="53" height="30"/>
         <image name="store.png" width="30" height="30"/>
     </resources>
+    <classes>
+        <class className="ScenicDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicDetailViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="scenicName" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="scenicSubName" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="ScenicViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

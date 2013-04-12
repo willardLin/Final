@@ -8,7 +8,8 @@
 
 #import "ScenicViewController.h"
 #import "FileName.h"
-#import "GulangyuViewController.h"
+#import "ScenicDetailBase.h"
+#import "ScenicDetailViewController.h"
 @interface ScenicViewController ()
 
 @end
@@ -114,17 +115,24 @@
 
 #pragma mark - Table view delegate
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    // Navigation logic may go here. Create and push another view controller.
+//    /*
+//     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+//     // ...
+//     // Pass the selected object to the new view controller.
+//     [self.navigationController pushViewController:detailViewController animated:YES];
+//     */
+//    self prepareForSegue: sender:<#(id)#>
+//}
+- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
-    UIStoryboard *storyboard = self.storyboard;
-    
+    if ([segue.identifier isEqualToString:@"DetailInformation"]) {
+        ScenicDetailViewController *vc = [[ScenicDetailViewController alloc] init];
+        vc = segue.destinationViewController;
+        [(ScenicDetailViewController *)segue.destinationViewController setName:@"你妹"];
+//        vc.scenicName.text = @"你妹";
+    }
 }
-
 @end
