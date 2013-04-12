@@ -8,6 +8,7 @@
 
 #import "ScenicViewController.h"
 #import "FileName.h"
+#import "GulangyuViewController.h"
 @interface ScenicViewController ()
 
 @end
@@ -122,6 +123,8 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+    UIStoryboard *storyboard = self.storyboard;
+    
 }
 
 @end

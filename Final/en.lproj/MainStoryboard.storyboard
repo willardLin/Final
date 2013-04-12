@@ -136,7 +136,7 @@
         <!--Scenic Detail View Controller - 景点-->
         <scene sceneID="iZn-pj-QNP">
             <objects>
-                <viewController id="3c5-bm-nrw" customClass="ScenicDetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ScenicDetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3c5-bm-nrw" customClass="ScenicDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4hK-Hc-9eq">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -294,18 +294,6 @@
         <image name="hotel.png" width="53" height="30"/>
         <image name="store.png" width="30" height="30"/>
     </resources>
-    <classes>
-        <class className="ScenicDetailViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicDetailViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scenicName" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="scenicSubName" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="ScenicViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicViewController.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

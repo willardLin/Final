@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "ScenicDetailWords.h"
+typedef enum
+{
+    kGulangyuNameType = 0,
+    kZhongshanluType,
+    kNanputuoType,
+}kScenicNameType;
+
 @interface ScenicDetailViewController : UIViewController
 //景点名称
 @property (strong, nonatomic) IBOutlet UILabel *scenicName;

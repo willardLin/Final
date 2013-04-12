@@ -7,7 +7,6 @@
 //
 
 #import "GulangyuViewController.h"
-#import "<#header#>"
 @interface GulangyuViewController ()
 
 @end
@@ -19,13 +18,15 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.scenicName = 
     }
     return self;
 }
 
 - (void)viewDidLoad
 {
+    self.scenicName.text = kGulangyu;
+    self.scenicSubName.text = kGulangyu_haoyueyuan;
+
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
