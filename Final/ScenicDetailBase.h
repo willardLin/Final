@@ -14,6 +14,15 @@ typedef enum
     kGulangyuNameType = 0,
     kZhongshanluNameType,
     kNanputuoNameType,
+    kXiamenDaxueNameType,
+    kZhiwuyuanNameType,
+    kNanhualuNameType,
+    kHuandaoluNameType,
+    kGuanyinshanNameType,
+    kTiedaoNameType,
+    kChenjiagengNameType,
+    kHaiwanNameType,
+    kJimeiNameType
 }kClassScenicNameType;
 
 @interface ScenicDetailBase : NSObject
@@ -26,6 +35,10 @@ typedef enum
 @property (nonatomic,strong) NSString *title;
 //景点enum
 @property (nonatomic,assign) kClassScenicNameType type;
+
+//景点图片
+@property (nonatomic,strong) NSMutableArray *imageArray;
+@property (nonatomic,strong) UIImage        *image;
 
 //类方法。构建对应的子类
 + (ScenicDetailBase *) classFromType:(kClassScenicNameType)type;

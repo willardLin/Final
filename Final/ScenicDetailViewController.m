@@ -14,7 +14,6 @@
 @end
 
 @implementation ScenicDetailViewController
-@synthesize delegate = _delegate;
 @synthesize scenicName = _scenicName;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
