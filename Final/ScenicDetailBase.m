@@ -7,11 +7,13 @@
 //
 
 #import "ScenicDetailBase.h"
-
-
+#import "ScenicViewController.h"
 #import "ScenicDetailGulangyu.h"
+#import "ScenicDetailZhongshanlu.h"
 
 @implementation ScenicDetailBase
+@synthesize scenicName = _scenicName;
+@synthesize scenicSubName = _scenicSubName;
 
 +(ScenicDetailBase *)classFromType:(kClassScenicNameType)type
 {
@@ -21,8 +23,16 @@
         case kGulangyuNameType:
             base = [[ScenicDetailGulangyu alloc] init];
             break;
+        case kZhongshanluNameType:
+            base = [[ScenicDetailZhongshanlu alloc] init];
+            break;
+        default:
+            break;
     }
     base.type = kGulangyuNameType;
+//    [_delegate sendScenicDetailBase:base];
+
     return base;
 }
+
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C989BFB171B15B300DB7E5A /* ScenicDetailZhongshanlu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */; };
 		5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB317185C6800654214 /* ScenicDetailBase.m */; };
 		5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */; };
 		84AA7A911717F6740006092F /* ScenicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA7A901717F6740006092F /* ScenicDetailViewController.m */; };
@@ -20,8 +21,6 @@
 		84D2FF5E17092C6400F20E72 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2FF5D17092C6400F20E72 /* Default@2x.png */; };
 		84D2FF6017092C6400F20E72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2FF5F17092C6400F20E72 /* Default-568h@2x.png */; };
 		84D2FF6317092C6400F20E72 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D2FF6117092C6400F20E72 /* MainStoryboard.storyboard */; };
-		84D2FF6617092C6400F20E72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2FF6517092C6400F20E72 /* ViewController.m */; };
-		84D2FF701709304800F20E72 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2FF6F1709304800F20E72 /* SecondViewController.m */; };
 		84D2FF72170956D100F20E72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF71170956D100F20E72 /* QuartzCore.framework */; };
 		84D2FF881709651200F20E72 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2FF771709651200F20E72 /* cart.png */; };
 		84D2FF891709651200F20E72 /* gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D2FF781709651200F20E72 /* gallery.png */; };
@@ -37,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C989BF9171B15B300DB7E5A /* ScenicDetailZhongshanlu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailZhongshanlu.h; sourceTree = "<group>"; };
+		5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailZhongshanlu.m; sourceTree = "<group>"; };
 		5CCB5BB217185C6800654214 /* ScenicDetailBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailBase.h; sourceTree = "<group>"; };
 		5CCB5BB317185C6800654214 /* ScenicDetailBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailBase.m; sourceTree = "<group>"; };
 		5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailGulangyu.h; sourceTree = "<group>"; };
@@ -58,10 +59,6 @@
 		84D2FF5D17092C6400F20E72 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		84D2FF5F17092C6400F20E72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		84D2FF6217092C6400F20E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		84D2FF6417092C6400F20E72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84D2FF6517092C6400F20E72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84D2FF6E1709304800F20E72 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		84D2FF6F1709304800F20E72 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		84D2FF71170956D100F20E72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		84D2FF771709651200F20E72 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 		84D2FF781709651200F20E72 /* gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery.png; sourceTree = "<group>"; };
@@ -94,9 +91,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C989BF8171B158000DB7E5A /* 中山路 */ = {
+			isa = PBXGroup;
+			children = (
+				5C989BF9171B15B300DB7E5A /* ScenicDetailZhongshanlu.h */,
+				5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */,
+			);
+			name = "中山路";
+			sourceTree = "<group>";
+		};
 		84AA7A8E1717E6F10006092F /* 景点子类 */ = {
 			isa = PBXGroup;
 			children = (
+				5C989BF8171B158000DB7E5A /* 中山路 */,
 				84AA7A951717F8AA0006092F /* 鼓浪屿 */,
 				5CCB5BB217185C6800654214 /* ScenicDetailBase.h */,
 				5CCB5BB317185C6800654214 /* ScenicDetailBase.m */,
@@ -152,10 +159,6 @@
 				84D2FF5817092C6400F20E72 /* AppDelegate.h */,
 				84D2FF5917092C6400F20E72 /* AppDelegate.m */,
 				84D2FF6117092C6400F20E72 /* MainStoryboard.storyboard */,
-				84D2FF6417092C6400F20E72 /* ViewController.h */,
-				84D2FF6517092C6400F20E72 /* ViewController.m */,
-				84D2FF6E1709304800F20E72 /* SecondViewController.h */,
-				84D2FF6F1709304800F20E72 /* SecondViewController.m */,
 				84D2FF5017092C6400F20E72 /* Supporting Files */,
 			);
 			path = Final;
@@ -297,13 +300,12 @@
 			files = (
 				84D2FF5617092C6400F20E72 /* main.m in Sources */,
 				84D2FF5A17092C6400F20E72 /* AppDelegate.m in Sources */,
-				84D2FF6617092C6400F20E72 /* ViewController.m in Sources */,
-				84D2FF701709304800F20E72 /* SecondViewController.m in Sources */,
 				84D2FFA21709765100F20E72 /* ScenicViewController.m in Sources */,
 				84D2FFA7170978AA00F20E72 /* ScenicInformations.m in Sources */,
 				84AA7A911717F6740006092F /* ScenicDetailViewController.m in Sources */,
 				5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */,
 				5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */,
+				5C989BFB171B15B300DB7E5A /* ScenicDetailZhongshanlu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

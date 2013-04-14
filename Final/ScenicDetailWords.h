@@ -19,7 +19,11 @@
 #define kGulangyu_qinyuan    @"琴园"
 #define kGulangyu_fengqin    @"风琴博物馆"
 
-
+/////////////////中山路////////////////////
+#define kZhongshanlu @"中山路"
+#define kZhongshanlu_taiwanjie    @"台湾小吃街"
+#define kZhongshanlu_zhangsanfeng @"张三疯"
+#define kZhongshanlu_zhaoxiaojie  @"赵小姐的店"
 
 
 #endif

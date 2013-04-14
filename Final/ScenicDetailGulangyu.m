@@ -15,6 +15,8 @@
     if (self = [super init])
     {
         self.scenicName = kGulangyu;
+        self.scenicSubName = kGulangyu_riguangyan;
+        self.title = kGulangyu;
     }
     return self;
 }

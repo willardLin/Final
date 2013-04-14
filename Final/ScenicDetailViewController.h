@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "ScenicDetailWords.h"
+#import "ScenicDetailBase.h"
 
 @interface ScenicDetailViewController : UIViewController
 //景点名称
 @property (strong, nonatomic) IBOutlet UILabel *scenicName;
 //景点子类名称
 @property (strong, nonatomic) IBOutlet UILabel *scenicSubName;
-- (void) setName:(NSString *)name;
+@property (strong, nonatomic) ScenicDetailBase *base;
 @end

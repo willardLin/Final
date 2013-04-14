@@ -9,9 +9,12 @@
 //景点  ViewController
 #import <UIKit/UIKit.h>
 #import "ScenicInformations.h"
+#import "ScenicDetailBase.h"
+#import "ScenicDetailViewController.h"
 
 @interface ScenicViewController : UITableViewController
 @property (nonatomic,strong) ScenicInformations *scenic;
 @property (nonatomic,strong) NSArray            *scenicArray;
 @property (nonatomic,strong) NSDictionary       *scenicDictionary;
+@property (nonatomic,strong) ScenicDetailBase   *base;
 @end

@@ -18,6 +18,7 @@
 @synthesize scenic = _scenic;
 @synthesize scenicArray = _scenicArray;
 @synthesize scenicDictionary = _scenicDictionary;
+@synthesize base = _base;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -36,6 +37,11 @@
     _scenicDictionary = _scenic.informationsDictionary;
     //输出景点名称
     NSLog(@"%@",[_scenicDictionary objectForKey:kScenicInformations_Name]);
+    _base = [ScenicDetailBase classFromType:kGulangyuNameType];
+    
+//    _base.scenicName = @"你全家";
+//    _base.scenicSubName = @"你老母";
+//    _base.title = kGulangyu;
     [super viewDidLoad];
 
     // Uncomment the following line to preserve selection between presentations.
@@ -70,7 +76,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     //返回景点名称
     cell.textLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_Name] objectAtIndex:[indexPath row]];
-
+    NSLog(@"%@",_base);
     return cell;
 }
 
@@ -124,15 +130,17 @@
 //     // Pass the selected object to the new view controller.
 //     [self.navigationController pushViewController:detailViewController animated:YES];
 //     */
-//    self prepareForSegue: sender:<#(id)#>
+//    [self performSegueWithIdentifier:@"DetailInformation" sender:self];
 //}
+
 - (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"DetailInformation"]) {
-        ScenicDetailViewController *vc = [[ScenicDetailViewController alloc] init];
-        vc = segue.destinationViewController;
-        [(ScenicDetailViewController *)segue.destinationViewController setName:@"你妹"];
-//        vc.scenicName.text = @"你妹";
+        _base = [ScenicDetailBase classFromType:[[self.tableView indexPathForSelectedRow] row]];
+        ScenicDetailViewController *vc = segue.destinationViewController;
+        [vc setValue:self.base forKey:@"base"];
+        NSLog(@"%d",[[self.tableView indexPathForSelectedRow] row]);
     }
 }
+
 @end
