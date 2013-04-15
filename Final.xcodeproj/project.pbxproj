@@ -42,6 +42,16 @@
 		5C989BFB171B15B300DB7E5A /* ScenicDetailZhongshanlu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */; };
 		5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB317185C6800654214 /* ScenicDetailBase.m */; };
 		5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */; };
+		849658BA171BD1D500274698 /* ScenicDetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658B9171BD1D500274698 /* ScenicDetailImageViewController.m */; };
+		849658BE171BD56E00274698 /* APScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658BD171BD56E00274698 /* APScrollView.m */; };
+		849658C3171BD84700274698 /* IMG_0656.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849658BF171BD84700274698 /* IMG_0656.jpg */; };
+		849658C4171BD84700274698 /* IMG_0657.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849658C0171BD84700274698 /* IMG_0657.jpg */; };
+		849658C5171BD84700274698 /* IMG_0663.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 849658C1171BD84700274698 /* IMG_0663.JPG */; };
+		849658C6171BD84700274698 /* IMG_0665.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 849658C2171BD84700274698 /* IMG_0665.JPG */; };
+		849658CB171BEC4000274698 /* IMG_0670.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849658C7171BEC4000274698 /* IMG_0670.PNG */; };
+		849658CC171BEC4000274698 /* IMG_0671.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849658C8171BEC4000274698 /* IMG_0671.PNG */; };
+		849658CD171BEC4000274698 /* IMG_0673.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849658C9171BEC4000274698 /* IMG_0673.PNG */; };
+		849658CE171BEC4000274698 /* IMG_0674.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849658CA171BEC4000274698 /* IMG_0674.PNG */; };
 		84AA7A911717F6740006092F /* ScenicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA7A901717F6740006092F /* ScenicDetailViewController.m */; };
 		84D2FF4A17092C6400F20E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF4917092C6400F20E72 /* UIKit.framework */; };
 		84D2FF4C17092C6400F20E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF4B17092C6400F20E72 /* Foundation.framework */; };
@@ -116,6 +126,18 @@
 		5CCB5BB317185C6800654214 /* ScenicDetailBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailBase.m; sourceTree = "<group>"; };
 		5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailGulangyu.h; sourceTree = "<group>"; };
 		5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailGulangyu.m; sourceTree = "<group>"; };
+		849658B8171BD1D500274698 /* ScenicDetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailImageViewController.h; sourceTree = "<group>"; };
+		849658B9171BD1D500274698 /* ScenicDetailImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailImageViewController.m; sourceTree = "<group>"; };
+		849658BC171BD56E00274698 /* APScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APScrollView.h; sourceTree = "<group>"; };
+		849658BD171BD56E00274698 /* APScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APScrollView.m; sourceTree = "<group>"; };
+		849658BF171BD84700274698 /* IMG_0656.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0656.jpg; sourceTree = "<group>"; };
+		849658C0171BD84700274698 /* IMG_0657.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0657.jpg; sourceTree = "<group>"; };
+		849658C1171BD84700274698 /* IMG_0663.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0663.JPG; sourceTree = "<group>"; };
+		849658C2171BD84700274698 /* IMG_0665.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0665.JPG; sourceTree = "<group>"; };
+		849658C7171BEC4000274698 /* IMG_0670.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0670.PNG; sourceTree = "<group>"; };
+		849658C8171BEC4000274698 /* IMG_0671.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0671.PNG; sourceTree = "<group>"; };
+		849658C9171BEC4000274698 /* IMG_0673.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0673.PNG; sourceTree = "<group>"; };
+		849658CA171BEC4000274698 /* IMG_0674.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0674.PNG; sourceTree = "<group>"; };
 		84AA7A8F1717F6740006092F /* ScenicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailViewController.h; sourceTree = "<group>"; };
 		84AA7A901717F6740006092F /* ScenicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailViewController.m; sourceTree = "<group>"; };
 		84AA7A961717F8FB0006092F /* ScenicDetailWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailWords.h; sourceTree = "<group>"; };
@@ -168,8 +190,19 @@
 		5C3D386E171B21A9004C9B34 /* 景点图片 */ = {
 			isa = PBXGroup;
 			children = (
+				849658C7171BEC4000274698 /* IMG_0670.PNG */,
+				849658C8171BEC4000274698 /* IMG_0671.PNG */,
+				849658C9171BEC4000274698 /* IMG_0673.PNG */,
+				849658CA171BEC4000274698 /* IMG_0674.PNG */,
+				849658BF171BD84700274698 /* IMG_0656.jpg */,
+				849658C0171BD84700274698 /* IMG_0657.jpg */,
+				849658C1171BD84700274698 /* IMG_0663.JPG */,
+				849658C2171BD84700274698 /* IMG_0665.JPG */,
+				849658BB171BD55C00274698 /* 第三方 */,
 				5C3D386F171B21DD004C9B34 /* small_picture_retina */,
 				5C3D387B171B21DD004C9B34 /* small_pictures */,
+				849658B8171BD1D500274698 /* ScenicDetailImageViewController.h */,
+				849658B9171BD1D500274698 /* ScenicDetailImageViewController.m */,
 			);
 			name = "景点图片";
 			sourceTree = "<group>";
@@ -307,6 +340,15 @@
 				5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */,
 			);
 			name = "中山路";
+			sourceTree = "<group>";
+		};
+		849658BB171BD55C00274698 /* 第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				849658BC171BD56E00274698 /* APScrollView.h */,
+				849658BD171BD56E00274698 /* APScrollView.m */,
+			);
+			name = "第三方";
 			sourceTree = "<group>";
 		};
 		84AA7A8E1717E6F10006092F /* 景点子类 */ = {
@@ -530,6 +572,14 @@
 				5C3D389A171B21DD004C9B34 /* small_7.jpg in Resources */,
 				5C3D389B171B21DD004C9B34 /* small_8.jpg in Resources */,
 				5C3D389C171B21DD004C9B34 /* small_9.jpg in Resources */,
+				849658C3171BD84700274698 /* IMG_0656.jpg in Resources */,
+				849658C4171BD84700274698 /* IMG_0657.jpg in Resources */,
+				849658C5171BD84700274698 /* IMG_0663.JPG in Resources */,
+				849658C6171BD84700274698 /* IMG_0665.JPG in Resources */,
+				849658CB171BEC4000274698 /* IMG_0670.PNG in Resources */,
+				849658CC171BEC4000274698 /* IMG_0671.PNG in Resources */,
+				849658CD171BEC4000274698 /* IMG_0673.PNG in Resources */,
+				849658CE171BEC4000274698 /* IMG_0674.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +608,8 @@
 				5C3D38C2171B276D004C9B34 /* ScenicDetailChenjiageng.m in Sources */,
 				5C3D38C5171B2779004C9B34 /* ScenicDetailHaiwan.m in Sources */,
 				5C3D38C8171B278A004C9B34 /* ScenicDetailJimei.m in Sources */,
+				849658BA171BD1D500274698 /* ScenicDetailImageViewController.m in Sources */,
+				849658BE171BD56E00274698 /* APScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
