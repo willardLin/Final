@@ -13,7 +13,8 @@
 @end
 
 @implementation ScenicDetailImageViewController
-@synthesize tapGesture = _tapGesture;
+@synthesize tapGesture   = _tapGesture;
+@synthesize swipeGesture = _swipeGesture;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -48,40 +49,56 @@
                                                             0,
                                                             self.view.frame.size.width,
                                                             self.scrollView.frame.size.height) andImageName:@"IMG_0673.PNG"]];
-
+    
     [self.view addSubview:_scrollView];
     _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(displayNavigationAndTabBar)];
     [self.scrollView addGestureRecognizer:_tapGesture];
+    [self.scrollView addGestureRecognizer:_swipeGesture];
     
 }
 
 - (void)displayNavigationAndTabBar
 {
-    self.navigationController.navigationBarHidden = NO;
-    self.tabBarController.tabBar.hidden = NO;
+    if (self.navigationController.navigationBarHidden == YES) {
+        self.tabBarController.tabBar.hidden = NO;
+        [[UIApplication sharedApplication] setStatusBarHidden:NO];
+//        [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
+        self.navigationController.navigationBarHidden = NO;
+        self.navigationController.navigationBar.alpha = 0.7f;
+        //    [UIApplication sharedApplication]statusBarStyle
+        CGRect rect = CGRectMake(0, 0,_scrollView.frame.size.width, _scrollView.frame.size.height);
+        _scrollView.frame = rect;
+
+    }
+    else
+    {
+//        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
+        
+        self.navigationController.navigationBarHidden = YES;
+        self.tabBarController.tabBar.hidden = YES;
+    }
     //半透明
-    self.navigationController.navigationBar.alpha = 0.7f;
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
-//    [UIApplication sharedApplication]statusBarStyle
-    CGRect rect = CGRectMake(0, -62,_scrollView.frame.size.width, _scrollView.frame.size.height);
-    _scrollView.frame = rect;
 }
 
 //UINavigation和TablBar的动画效果
 //[UIView animateWithDuration:.4 animations:^{
 //    [[UIApplication sharedApplication] setStatusBarHidden:show withAnimation:UIStatusBarAnimationFade];
 //    _statusBarPageControl.alpha = show;
-//    
+//
 //    if (show) {
 //        [[[UIApplication sharedApplication] keyWindow] addSubview:_statusBarPageControl];
 //    }
-//    
+//
 //} completion:^(BOOL finished) {
 //    if (!show) {
 //        [_statusBarPageControl removeFromSuperview];
 //    }
 //}];
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    self.navigationController.navigationBar.alpha = 1.0f;
+}
 -(void)viewWillAppear:(BOOL)animated
 {
     self.navigationController.navigationBarHidden = YES;

@@ -215,7 +215,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="rft-l6-RDN">
-                                <rect key="frame" x="0.0" y="-44" width="320" height="480"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="AfZ-Gp-whP">
@@ -226,6 +226,7 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="TwI-gN-G8f" appends="YES" id="afs-fr-6SK"/>
+                                    <outletCollection property="gestureRecognizers" destination="rbL-HW-faE" appends="YES" id="NtR-c9-uEH"/>
                                 </connections>
                             </scrollView>
                         </subviews>
@@ -234,11 +235,13 @@
                     <navigationItem key="navigationItem" id="ihX-ag-V3M"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="swipeGesture" destination="rbL-HW-faE" id="buv-2V-EKP"/>
                         <outlet property="tapGesture" destination="TwI-gN-G8f" id="LkT-fY-BMX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CH8-SU-WtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="TwI-gN-G8f"/>
+                <swipeGestureRecognizer direction="right" id="rbL-HW-faE"/>
             </objects>
             <point key="canvasLocation" x="-579" y="-398"/>
         </scene>

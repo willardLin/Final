@@ -46,7 +46,7 @@
         _lastOrientation = [[UIApplication sharedApplication] statusBarOrientation];
     }
     
-    [UIView animateWithDuration:.4 animations:^{
+    [UIView animateWithDuration:.2 animations:^{
         [[UIApplication sharedApplication] setStatusBarHidden:show withAnimation:UIStatusBarAnimationFade];
         _statusBarPageControl.alpha = show;
         
