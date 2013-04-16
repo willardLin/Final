@@ -53,6 +53,8 @@
 		849658CD171BEC4000274698 /* IMG_0673.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849658C9171BEC4000274698 /* IMG_0673.PNG */; };
 		849658CE171BEC4000274698 /* IMG_0674.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 849658CA171BEC4000274698 /* IMG_0674.PNG */; };
 		84AA7A911717F6740006092F /* ScenicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AA7A901717F6740006092F /* ScenicDetailViewController.m */; };
+		84AC7E4E171D578C0099F820 /* burberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC7E4C171D578B0099F820 /* burberry.png */; };
+		84AC7E4F171D578C0099F820 /* burberry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AC7E4D171D578C0099F820 /* burberry@2x.png */; };
 		84D2FF4A17092C6400F20E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF4917092C6400F20E72 /* UIKit.framework */; };
 		84D2FF4C17092C6400F20E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF4B17092C6400F20E72 /* Foundation.framework */; };
 		84D2FF4E17092C6400F20E72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2FF4D17092C6400F20E72 /* CoreGraphics.framework */; };
@@ -141,6 +143,8 @@
 		84AA7A8F1717F6740006092F /* ScenicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailViewController.h; sourceTree = "<group>"; };
 		84AA7A901717F6740006092F /* ScenicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailViewController.m; sourceTree = "<group>"; };
 		84AA7A961717F8FB0006092F /* ScenicDetailWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailWords.h; sourceTree = "<group>"; };
+		84AC7E4C171D578B0099F820 /* burberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burberry.png; sourceTree = "<group>"; };
+		84AC7E4D171D578C0099F820 /* burberry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "burberry@2x.png"; sourceTree = "<group>"; };
 		84D2FF4617092C6400F20E72 /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D2FF4917092C6400F20E72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84D2FF4B17092C6400F20E72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -354,8 +358,9 @@
 		84AA7A8E1717E6F10006092F /* 景点子类 */ = {
 			isa = PBXGroup;
 			children = (
-				5C989BF8171B158000DB7E5A /* 中山路 */,
+				84AA7A961717F8FB0006092F /* ScenicDetailWords.h */,
 				84AA7A951717F8AA0006092F /* 鼓浪屿 */,
+				5C989BF8171B158000DB7E5A /* 中山路 */,
 				5C3D389D171B2597004C9B34 /* 南普陀 */,
 				5C3D389E171B25A6004C9B34 /* 厦门大学 */,
 				5C3D389F171B25AC004C9B34 /* 厦门园林植物园 */,
@@ -469,6 +474,8 @@
 		84D2FF9C170975CF00F20E72 /* 景点 */ = {
 			isa = PBXGroup;
 			children = (
+				84AC7E4C171D578B0099F820 /* burberry.png */,
+				84AC7E4D171D578C0099F820 /* burberry@2x.png */,
 				5C3D386E171B21A9004C9B34 /* 景点图片 */,
 				84AA7A8E1717E6F10006092F /* 景点子类 */,
 				5CCB5BB217185C6800654214 /* ScenicDetailBase.h */,
@@ -480,7 +487,6 @@
 				84D2FFA01709765100F20E72 /* ScenicViewController.h */,
 				84D2FFA11709765100F20E72 /* ScenicViewController.m */,
 				84D2FFA31709769400F20E72 /* scenicInformations.plist */,
-				84AA7A961717F8FB0006092F /* ScenicDetailWords.h */,
 			);
 			name = "景点";
 			sourceTree = "<group>";
@@ -580,6 +586,8 @@
 				849658CC171BEC4000274698 /* IMG_0671.PNG in Resources */,
 				849658CD171BEC4000274698 /* IMG_0673.PNG in Resources */,
 				849658CE171BEC4000274698 /* IMG_0674.PNG in Resources */,
+				84AC7E4E171D578C0099F820 /* burberry.png in Resources */,
+				84AC7E4F171D578C0099F820 /* burberry@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

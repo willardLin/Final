@@ -9,14 +9,15 @@
 #import "ScenicDetailViewController.h"
 #import "APScrollView.h"
 
-@interface ScenicDetailImageViewController : ScenicDetailViewController<UIGestureRecognizerDelegate>
+@interface ScenicDetailImageViewController : ScenicDetailViewController<UIScrollViewDelegate>
 //查看图片的滚动视图
 @property (nonatomic,strong) APScrollView *scrollView;
 //存放图片的数组
 @property (nonatomic,strong) NSArray *imagesArray;
 //点击手势
 @property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapGesture;
-@property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *swipeGesture;
+//@property (strong, nonatomic) IBOutlet UINavigationBar *customNavigationBar;
+@property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
 
 //特别订制Navigtion
 //@property (strong, nonatomic) 

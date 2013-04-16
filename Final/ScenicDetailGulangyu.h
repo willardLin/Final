@@ -9,5 +9,15 @@
 #import "ScenicDetailBase.h"
 
 @interface ScenicDetailGulangyu : ScenicDetailBase
+typedef enum
+{
+    kRiguangyanNameType = 0,
+    kShuzhuangNameType,
+    kHaoyueyuanNameType,
+    kQinyuanNameType,
+    kFengqinNameType,
+}kGulangyuType;
 
+@property (nonatomic,strong) APScrollView *scrollView;
+@property (nonatomic,strong) NSArray *views;
 @end

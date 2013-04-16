@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//自定义一个ScrollView，用于展现全屏图片
 @interface APScrollView : UIScrollView {
     UIInterfaceOrientation    _lastOrientation;
 }

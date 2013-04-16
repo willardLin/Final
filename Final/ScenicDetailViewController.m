@@ -8,6 +8,7 @@
 
 #import "ScenicDetailViewController.h"
 #import "ScenicViewController.h"
+#import "ScenicDetailImageViewController.h"
 #define SCREEN_WIDTH 320
 #define BASE_SCROLLVIEW_HEIGHT 760
 @interface ScenicDetailViewController ()
@@ -57,8 +58,11 @@
 {
     if ([segue.identifier isEqualToString:@"imageDetail"]) {
         NSLog(@"....");
+        //隐藏Tabbar
+        [(ScenicDetailImageViewController *)segue.destinationViewController setHidesBottomBarWhenPushed:YES];
     }
 }
+
 
     - (void)didReceiveMemoryWarning
 {

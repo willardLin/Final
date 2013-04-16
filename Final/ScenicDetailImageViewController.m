@@ -14,7 +14,7 @@
 
 @implementation ScenicDetailImageViewController
 @synthesize tapGesture   = _tapGesture;
-@synthesize swipeGesture = _swipeGesture;
+//@synthesize swipeGesture = _swipeGesture;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,11 +29,18 @@
 {
     
     [super viewDidLoad];
-    self.wantsFullScreenLayout = YES;
+    [self.navigationController.navigationBar setTranslucent:YES];
+    self.navigationController.navigationBarHidden = YES;
+//    self.tabBarController.tabBar.hidden = YES;
+//    [[UIApplication sharedApplication]setStatusBarHidden:YES];
+
+//    self.wantsFullScreenLayout = YES;
 	// Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor blackColor];
     
-    _scrollView = [[APScrollView alloc] initWithFrame:self.view.bounds];
+    CGRect rect = CGRectMake(0, 0, self.view.bounds.size.width, 460);
+    NSLog(@"%f",self.view.bounds.size.height);
+    _scrollView = [[APScrollView alloc] initWithFrame:rect];
     _scrollView.contentSize = CGSizeMake(self.view.frame.size.width * 3, self.scrollView.frame.size.height);
     _scrollView.pagingEnabled = YES;
     [_scrollView addSubview:[self imageWithFrame:CGRectMake(0,
@@ -51,31 +58,40 @@
                                                             self.scrollView.frame.size.height) andImageName:@"IMG_0673.PNG"]];
     
     [self.view addSubview:_scrollView];
-    _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(displayNavigationAndTabBar)];
+    _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(displayNavigation)];
     [self.scrollView addGestureRecognizer:_tapGesture];
-    [self.scrollView addGestureRecognizer:_swipeGesture];
+    _scrollView.maximumZoomScale = 2.0f;
+    _scrollView.delegate = self;
+    [self.view addSubview:_pageControl];
+    [self.view bringSubviewToFront:_pageControl];
+
+//    [self.scrollView addGestureRecognizer:_swipeGesture];
     
 }
 
-- (void)displayNavigationAndTabBar
+
+- (void)displayNavigation
 {
     if (self.navigationController.navigationBarHidden == YES) {
-        self.tabBarController.tabBar.hidden = NO;
-        [[UIApplication sharedApplication] setStatusBarHidden:NO];
-//        [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationFade];
-        self.navigationController.navigationBarHidden = NO;
+//        [[UIApplication sharedApplication] setStatusBarHidden:NO];
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
+//        self.navigationController.navigationBarHidden = NO;
         self.navigationController.navigationBar.alpha = 0.7f;
         //    [UIApplication sharedApplication]statusBarStyle
-        CGRect rect = CGRectMake(0, 0,_scrollView.frame.size.width, _scrollView.frame.size.height);
-        _scrollView.frame = rect;
-
+//        CGRect rect = CGRectMake(0, 0,_scrollView.frame.size.width, _scrollView.frame.size.height);
+//        
+//        _scrollView.frame = rect;
+//        [UIView beginAnimations:nil context:nil];
+//        [UIView setAnimationDuration:0.4];
     }
     else
     {
 //        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
-        
-        self.navigationController.navigationBarHidden = YES;
-        self.tabBarController.tabBar.hidden = YES;
+//        [[UIApplication sharedApplication] setStatusBarHidden:YES];
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+//        [UIView beginAnimations:nil context:nil];
+//        [UIView setAnimationDuration:0.4];
+
     }
     //半透明
 }
@@ -98,12 +114,24 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
     self.navigationController.navigationBar.alpha = 1.0f;
+    //显示Tabbar
+//    self.tabBarController.tabBar.hidden = NO;
+    //显示Navigation
+    self.navigationController.navigationBar.hidden = NO;
+    [self.navigationController.navigationBar setTranslucent:NO];
+
+    //显示状态栏
+//    [[UIApplication sharedApplication] setStatusBarHidden:NO];
+//    self.hidesBottomBarWhenPushed = NO;
+//    [super viewWillDisappear:animated];
+    
 }
 -(void)viewWillAppear:(BOOL)animated
 {
-    self.navigationController.navigationBarHidden = YES;
-    self.tabBarController.tabBar.hidden = YES;
+//    self.navigationController.navigationBar.hidden = YES;
 }
+
+//创建图片
 - (UIImageView *)imageWithFrame: (CGRect)frame andImageName:(NSString *)imageName{
     UIImage *image = [UIImage imageNamed:imageName];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
@@ -115,6 +143,25 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark -
+#pragma mark UIScrollViewDelegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    _pageControl.currentPage = _scrollView.statusBarPageControl.currentPage;
+}
+//手指滑动时隐藏statusBar和UINavigation
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+//    self.navigationController.navigationBar.hidden = YES;
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+//    self.tabBarController.tabBarItem set  ;
+//    [[UIApplication sharedApplication]setStatusBarHidden:YES];
+//    [UIView beginAnimations:nil context:nil];
+//    [UIView setAnimationDuration:0.4];
+
 }
 
 @end
