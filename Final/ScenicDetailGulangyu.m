@@ -17,6 +17,12 @@
         self.scenicName = kGulangyu;
         self.scenicSubName = kGulangyu_riguangyan;
         self.title = kGulangyu;
+        self.imageArray = [[NSMutableArray alloc] init];
+//        [self.imageArray addObject:];
+        NSData *imageData = UIImageJPEGRepresentation([UIImage imageNamed:@"riguangyan1.jpg"], 0.5);
+        [self.imageArray addObject:[[UIImage alloc]initWithData:imageData]];
+
+//        self.imageArray =
     }
     return self;
 }

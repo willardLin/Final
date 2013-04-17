@@ -42,6 +42,9 @@
 		5C989BFB171B15B300DB7E5A /* ScenicDetailZhongshanlu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */; };
 		5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB317185C6800654214 /* ScenicDetailBase.m */; };
 		5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */; };
+		843F211E171E3520009E44DD /* riguangyan1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843F211B171E3520009E44DD /* riguangyan1.jpg */; };
+		843F211F171E3520009E44DD /* riguangyan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843F211C171E3520009E44DD /* riguangyan2.jpg */; };
+		843F2122171E352B009E44DD /* riguangyan3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843F2121171E352B009E44DD /* riguangyan3.jpg */; };
 		849658BA171BD1D500274698 /* ScenicDetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658B9171BD1D500274698 /* ScenicDetailImageViewController.m */; };
 		849658BE171BD56E00274698 /* APScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658BD171BD56E00274698 /* APScrollView.m */; };
 		849658C3171BD84700274698 /* IMG_0656.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 849658BF171BD84700274698 /* IMG_0656.jpg */; };
@@ -128,6 +131,9 @@
 		5CCB5BB317185C6800654214 /* ScenicDetailBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailBase.m; sourceTree = "<group>"; };
 		5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailGulangyu.h; sourceTree = "<group>"; };
 		5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailGulangyu.m; sourceTree = "<group>"; };
+		843F211B171E3520009E44DD /* riguangyan1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riguangyan1.jpg; sourceTree = "<group>"; };
+		843F211C171E3520009E44DD /* riguangyan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riguangyan2.jpg; sourceTree = "<group>"; };
+		843F2121171E352B009E44DD /* riguangyan3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riguangyan3.jpg; sourceTree = "<group>"; };
 		849658B8171BD1D500274698 /* ScenicDetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailImageViewController.h; sourceTree = "<group>"; };
 		849658B9171BD1D500274698 /* ScenicDetailImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailImageViewController.m; sourceTree = "<group>"; };
 		849658BC171BD56E00274698 /* APScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APScrollView.h; sourceTree = "<group>"; };
@@ -346,6 +352,16 @@
 			name = "中山路";
 			sourceTree = "<group>";
 		};
+		843F211A171E3516009E44DD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				843F211B171E3520009E44DD /* riguangyan1.jpg */,
+				843F211C171E3520009E44DD /* riguangyan2.jpg */,
+				843F2121171E352B009E44DD /* riguangyan3.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		849658BB171BD55C00274698 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +394,7 @@
 		84AA7A951717F8AA0006092F /* 鼓浪屿 */ = {
 			isa = PBXGroup;
 			children = (
+				843F211A171E3516009E44DD /* images */,
 				5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */,
 				5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */,
 			);
@@ -588,6 +605,9 @@
 				849658CE171BEC4000274698 /* IMG_0674.PNG in Resources */,
 				84AC7E4E171D578C0099F820 /* burberry.png in Resources */,
 				84AC7E4F171D578C0099F820 /* burberry@2x.png in Resources */,
+				843F211E171E3520009E44DD /* riguangyan1.jpg in Resources */,
+				843F211F171E3520009E44DD /* riguangyan2.jpg in Resources */,
+				843F2122171E352B009E44DD /* riguangyan3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,8 +18,8 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *baseScrollView;
 //手势触发
 @property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapGesture;
-@property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *imageViews;
-@property (strong, nonatomic) IBOutlet APScrollView *imagesScrollView;
+//@property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *imageViews;
+@property (strong, nonatomic) APScrollView *imagesScrollView;
 
 //各个字段的名称
 @property (strong, nonatomic) ScenicDetailBase *base;

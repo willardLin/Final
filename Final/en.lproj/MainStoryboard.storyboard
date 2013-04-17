@@ -76,34 +76,6 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="D34-Xg-UyE">
-                                        <rect key="frame" x="20" y="49" width="280" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <subviews>
-                                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="ACp-at-ssl">
-                                                <rect key="frame" x="121" y="92" width="38" height="36"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </pageControl>
-                                            <imageView contentMode="scaleToFill" image="IMG_0656.jpg" id="SAc-F5-bKo">
-                                                <rect key="frame" x="0.0" y="0.0" width="280" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <gestureRecognizers/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="IMG_0657.jpg" id="qXs-RE-A35">
-                                                <rect key="frame" x="280" y="0.0" width="280" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView contentMode="scaleToFill" image="IMG_0663.JPG" id="D8q-AP-TTj">
-                                                <rect key="frame" x="560" y="0.0" width="280" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <gestureRecognizers/>
-                                            </imageView>
-                                        </subviews>
-                                        <gestureRecognizers/>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="wm8-up-j09" appends="YES" id="ucF-He-1bt"/>
-                                        </connections>
-                                    </scrollView>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -113,22 +85,18 @@
                     <navigationItem key="navigationItem" id="jed-2A-KX2"/>
                     <connections>
                         <outlet property="baseScrollView" destination="u0P-6l-w8K" id="Tjv-pv-13R"/>
-                        <outlet property="imagesScrollView" destination="D34-Xg-UyE" id="qoY-cy-cyu"/>
                         <outlet property="scenicSubName" destination="qJ0-Uq-aAq" id="UAt-WK-mVF"/>
-                        <outlet property="tapGesture" destination="wm8-up-j09" id="bLi-Cg-2Xn"/>
-                        <outletCollection property="imageViews" destination="SAc-F5-bKo" id="u1d-hH-aZd"/>
-                        <outletCollection property="imageViews" destination="qXs-RE-A35" id="GWC-pD-zfp"/>
-                        <outletCollection property="imageViews" destination="D8q-AP-TTj" id="HuR-9r-zgL"/>
+                        <outlet property="tapGesture" destination="Ivj-1E-0Ml" id="RYh-x3-lHn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XYF-sZ-xpv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="wm8-up-j09">
+                <tapGestureRecognizer id="Ivj-1E-0Ml">
                     <connections>
-                        <segue destination="sRT-zU-2W2" kind="push" identifier="imageDetail" id="Hp3-Un-hOK"/>
+                        <segue destination="sRT-zU-2W2" kind="push" identifier="imageDetail" id="ND6-we-CLy"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-1005" y="-398"/>
+            <point key="canvasLocation" x="-953" y="-398"/>
         </scene>
         <!--View Controller - 美食-->
         <scene sceneID="hef-9o-p0P">
@@ -239,7 +207,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CH8-SU-WtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="TwI-gN-G8f"/>
             </objects>
-            <point key="canvasLocation" x="-619" y="-398"/>
+            <point key="canvasLocation" x="-547" y="-398"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JE6-jg-YrY">
@@ -360,9 +328,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_0656.jpg" width="2448" height="3264"/>
-        <image name="IMG_0657.jpg" width="2448" height="3264"/>
-        <image name="IMG_0663.JPG" width="1198" height="1198"/>
         <image name="burberry.png" width="32" height="32"/>
         <image name="cart.png" width="30" height="30"/>
         <image name="gallery.png" width="30" height="30"/>

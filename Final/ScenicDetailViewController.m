@@ -19,7 +19,7 @@
 @synthesize scenicSubName  = _scenicSubName;
 @synthesize baseScrollView = _baseScrollView;
 @synthesize tapGesture = _tapGesture;
-@synthesize imageViews = _imageViews;
+//@synthesize imageViews = _imageViews;
 @synthesize imagesScrollView = _imagesScrollView;
 @synthesize base = _base;
 
@@ -33,27 +33,37 @@
     return self;
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+
+}
+
 - (void)viewDidLoad
 {
     self.baseScrollView.contentSize = CGSizeMake(SCREEN_WIDTH, BASE_SCROLLVIEW_HEIGHT);
     self.baseScrollView.showsHorizontalScrollIndicator = NO;
     self.baseScrollView.showsVerticalScrollIndicator = NO;
     _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(prepareForSegue:sender:)];
-    [self.baseScrollView addGestureRecognizer:_tapGesture];
-//    self.imagesScrollView.contentSize = CGSizeMake(self.imageViews.count * self.imagesScrollView.frame.size.width, self.imagesScrollView.frame.size.height);
-    _imagesScrollView = [[APScrollView alloc] initWithFrame:self.view.bounds];
-    _imagesScrollView.contentSize = CGSizeMake(self.imagesScrollView.frame.size.width * 3, self.imagesScrollView.frame.size.height);
+//    [self.baseScrollView addGestureRecognizer:_tapGesture];
+    //    self.imagesScrollView.contentSize = CGSizeMake(self.imageViews.count * self.imagesScrollView.frame.size.width, self.imagesScrollView.frame.size.height);
+    CGRect rect = CGRectMake(20, 49, 280, 173);
+    _imagesScrollView = [[APScrollView alloc] initWithFrame:rect];
+    _imagesScrollView.contentSize = CGSizeMake(_imagesScrollView.frame.size.width * 3, _imagesScrollView.frame.size.height);
     _imagesScrollView.pagingEnabled = YES;
-
+//    UIImageView 
+//    [[_imagesScrollView addSubview:[[UIImageView alloc] initWithImage:[UIImage imageWithData:[self.base.imageArray objectAtIndex:0]]]]];
     self.scenicSubName.text = _base.scenicSubName;
     self.title = _base.title;
+    
+//    UIImage *image = [UIImage imageWithData:[self.base.imageArray objectAtIndex:0]];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[self.base.imageArray objectAtIndex:0]];
+    [_imagesScrollView addSubview:imageView];
+    [_baseScrollView addSubview:_imagesScrollView];
+    [_imagesScrollView addGestureRecognizer:_tapGesture];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    for (UIImageView *imageView in _imageViews)
-    {
-        NSLog(@"%@",imageView.image);
-    }
 }
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([segue.identifier isEqualToString:@"imageDetail"]) {
@@ -63,8 +73,7 @@
     }
 }
 
-
-    - (void)didReceiveMemoryWarning
+- (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -19,6 +19,10 @@
 #define kGulangyu_qinyuan    @"琴园"
 #define kGulangyu_fengqin    @"风琴博物馆"
 
+///////////////////日光岩图片////////////////
+
+
+
 /////////////////中山路////////////////////
 #define kZhongshanlu @"中山路"
 #define kZhongshanlu_taiwanjie    @"台湾小吃街"
