@@ -14,8 +14,8 @@
     if (self = [super init])
     {
         self.scenicName = kZhongshanlu;
-        self.scenicSubName = kZhongshanlu_taiwanjie;
-        self.title = kGulangyu;
+//        self.scenicSubName = kZhongshanlu_taiwanjie;
+        self.title = kZhongshanlu;
     }
     return self;
 }

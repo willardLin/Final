@@ -17,7 +17,6 @@
     if (self = [super init])
     {
         NSString *plistPath = [[NSBundle mainBundle] pathForResource:plist ofType:@"plist"];
-//        _informationsArray = [[NSArray alloc] initWithContentsOfFile:plistPath];
         _informationsDictionary = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
         return self;
     }

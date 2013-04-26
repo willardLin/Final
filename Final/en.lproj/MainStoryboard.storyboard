@@ -7,7 +7,7 @@
         <!--Scenic View Controller - 景点-->
         <scene sceneID="6bI-Ad-cki">
             <objects>
-                <tableViewController id="eb3-Xc-y9W" customClass="ScenicViewController" sceneMemberID="viewController">
+                <tableViewController autoresizesArchivedViewToFullSize="NO" id="eb3-Xc-y9W" customClass="ScenicViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="zfa-0o-paX">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,18 +65,150 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Tw3-RT-Gdy" customClass="SDSegmentedControl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="scenicSubNameDidChanged:" destination="zmO-rx-ocU" eventType="valueChanged" id="st4-Wq-UZ6"/>
+                                </connections>
+                            </segmentedControl>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="u0P-6l-w8K">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="640"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qJ0-Uq-aAq">
-                                        <rect key="frame" x="20" y="15" width="121" height="21"/>
+                                    <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="Rna-BE-n2b">
+                                        <rect key="frame" x="141" y="115" width="38" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    </pageControl>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="k1y-49-c3N">
+                                        <rect key="frame" x="20" y="0.0" width="280" height="148"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleAspectFill" id="6RZ-JG-xw7">
+                                                <rect key="frame" x="0.0" y="0.0" width="280" height="148"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="CbE-69-YbN" appends="YES" id="sa9-Ag-mtQ"/>
+                                                </connections>
+                                            </imageView>
+                                            <imageView contentMode="scaleAspectFill" id="XAl-j2-Xog">
+                                                <rect key="frame" x="280" y="0.0" width="280" height="148"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="CbE-69-YbN" appends="YES" id="vgZ-UA-JER"/>
+                                                </connections>
+                                            </imageView>
+                                            <imageView contentMode="scaleAspectFill" id="x9P-oN-TdP">
+                                                <rect key="frame" x="560" y="0.0" width="280" height="148"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="CbE-69-YbN" appends="YES" id="iNo-5T-diV"/>
+                                                </connections>
+                                            </imageView>
+                                        </subviews>
+                                    </scrollView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="Nu5-Dr-BNq">
+                                        <rect key="frame" x="20" y="189" width="280" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="fa6-fc-TTw">
+                                        <rect key="frame" x="20" y="227" width="280" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="SG1-9b-9tD">
+                                        <rect key="frame" x="20" y="265" width="280" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="3ew-Xf-XbZ">
+                                        <rect key="frame" x="20" y="303" width="280" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="3kD-gI-G1b">
+                                        <rect key="frame" x="20" y="350" width="280" height="1"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.50490419710000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="开放时间：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f4a-aK-SSB">
+                                        <rect key="frame" x="26" y="159" width="85" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="价格：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aON-Pm-SFT">
+                                        <rect key="frame" x="60" y="197" width="51" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="地址：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="W7L-bi-gJV">
+                                        <rect key="frame" x="60" y="235" width="51" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="简介：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CzT-MK-wBh">
+                                        <rect key="frame" x="60" y="273" width="51" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="公交路线：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bT4-JP-eQr">
+                                        <rect key="frame" x="26" y="312" width="85" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FBK-Ih-UW9">
+                                        <rect key="frame" x="110" y="159" width="278" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5EZ-AH-yGj">
+                                        <rect key="frame" x="110" y="197" width="278" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gpr-ck-tVo">
+                                        <rect key="frame" x="110" y="235" width="190" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="acs-DU-x25">
+                                        <rect key="frame" x="110" y="273" width="190" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sTo-D9-63C">
+                                        <rect key="frame" x="110" y="310" width="190" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <gestureRecognizers/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -84,19 +216,31 @@
                     </view>
                     <navigationItem key="navigationItem" id="jed-2A-KX2"/>
                     <connections>
+                        <outlet property="addressLabel" destination="gpr-ck-tVo" id="0Mf-7Q-fea"/>
                         <outlet property="baseScrollView" destination="u0P-6l-w8K" id="Tjv-pv-13R"/>
-                        <outlet property="scenicSubName" destination="qJ0-Uq-aAq" id="UAt-WK-mVF"/>
-                        <outlet property="tapGesture" destination="Ivj-1E-0Ml" id="RYh-x3-lHn"/>
+                        <outlet property="busImageView" destination="3kD-gI-G1b" id="WWZ-w6-H2n"/>
+                        <outlet property="descriptionImageView" destination="3ew-Xf-XbZ" id="YDK-n3-FNL"/>
+                        <outlet property="descriptionLabel" destination="acs-DU-x25" id="P81-Ue-tVh"/>
+                        <outlet property="imageView1" destination="6RZ-JG-xw7" id="JMu-cN-Zs3"/>
+                        <outlet property="imageView2" destination="XAl-j2-Xog" id="JII-rx-Owa"/>
+                        <outlet property="imageView3" destination="x9P-oN-TdP" id="XTW-TB-sHg"/>
+                        <outlet property="imagesScrollView" destination="k1y-49-c3N" id="sQO-CX-HVW"/>
+                        <outlet property="leftBusLabel" destination="bT4-JP-eQr" id="bB6-tT-hAt"/>
+                        <outlet property="openTimeLabel" destination="FBK-Ih-UW9" id="mvF-CF-FW5"/>
+                        <outlet property="pageControl" destination="Rna-BE-n2b" id="ahd-ek-46w"/>
+                        <outlet property="priceLabel" destination="5EZ-AH-yGj" id="XJ1-1C-ooN"/>
+                        <outlet property="rightBusLabel" destination="sTo-D9-63C" id="xGU-Fi-HI3"/>
+                        <outlet property="scenicSubName" destination="Tw3-RT-Gdy" id="moM-Tb-KUc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XYF-sZ-xpv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="Ivj-1E-0Ml">
+                <tapGestureRecognizer id="CbE-69-YbN">
                     <connections>
-                        <segue destination="sRT-zU-2W2" kind="push" identifier="imageDetail" id="ND6-we-CLy"/>
+                        <segue destination="sRT-zU-2W2" kind="push" identifier="imageDetail" id="wYr-Ht-o0c"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-953" y="-398"/>
+            <point key="canvasLocation" x="-806" y="-398"/>
         </scene>
         <!--View Controller - 美食-->
         <scene sceneID="hef-9o-p0P">
@@ -112,7 +256,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgR-vd-XCe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1483" y="776"/>
+            <point key="canvasLocation" x="-1461" y="783"/>
         </scene>
         <!--View Controller - 购物-->
         <scene sceneID="xm5-Gu-8Py">
@@ -176,7 +320,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z6e-fz-lF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1483" y="190"/>
+            <point key="canvasLocation" x="-1461" y="190"/>
         </scene>
         <!--Scenic Detail Image View Controller-->
         <scene sceneID="gau-te-wI7">
@@ -200,14 +344,14 @@
                     <navigationItem key="navigationItem" id="ihX-ag-V3M"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="pageControl" destination="XwV-jf-PDq" id="uxR-vs-kWP"/>
+                        <outlet property="pageControl" destination="XwV-jf-PDq" id="s2z-JJ-f9T"/>
                         <outlet property="tapGesture" destination="TwI-gN-G8f" id="LkT-fY-BMX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CH8-SU-WtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="TwI-gN-G8f"/>
             </objects>
-            <point key="canvasLocation" x="-547" y="-398"/>
+            <point key="canvasLocation" x="-249" y="-398"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JE6-jg-YrY">
@@ -334,6 +478,43 @@
         <image name="hotel.png" width="53" height="30"/>
         <image name="store.png" width="30" height="30"/>
     </resources>
+    <classes>
+        <class className="SDSegmentedControl" superclassName="UISegmentedControl">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SDSegmentedControl.h"/>
+        </class>
+        <class className="ScenicDetailImageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicDetailImageViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="pageControl" candidateClass="UIPageControl"/>
+                <relationship kind="outlet" name="tapGesture" candidateClass="UITapGestureRecognizer"/>
+            </relationships>
+        </class>
+        <class className="ScenicDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="scenicSubNameDidChanged:"/>
+                <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="baseScrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="busImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="descriptionImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="descriptionLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageView1" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageView2" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imageView3" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="imagesScrollView" candidateClass="UIScrollView"/>
+                <relationship kind="outlet" name="leftBusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="openTimeLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="pageControl" candidateClass="UIPageControl"/>
+                <relationship kind="outlet" name="priceLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="rightBusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="scenicSubName" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="tapGesture" candidateClass="UITapGestureRecognizer"/>
+            </relationships>
+        </class>
+        <class className="ScenicViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

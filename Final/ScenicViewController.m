@@ -36,7 +36,7 @@
     //获取plist中的各项内容
     _scenicDictionary = _scenic.informationsDictionary;
     //输出景点名称
-    NSLog(@"%@",[_scenicDictionary objectForKey:kScenicInformations_Name]);
+//    NSLog(@"%@",[_scenicDictionary objectForKey:kScenicInformations_Name]);
     _base = [ScenicDetailBase classFromType:kGulangyuNameType];
     
 //    _base.scenicName = @"你全家";
@@ -76,7 +76,6 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     //返回景点名称
     cell.textLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_Name] objectAtIndex:[indexPath row]];
-    NSLog(@"%@",_base);
     return cell;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -142,7 +141,7 @@
         _base = [ScenicDetailBase classFromType:[[self.tableView indexPathForSelectedRow] row]];
         ScenicDetailViewController *vc = segue.destinationViewController;
         [vc setValue:self.base forKey:@"base"];
-        NSLog(@"%d",[[self.tableView indexPathForSelectedRow] row]);
+        [vc setHidesBottomBarWhenPushed:YES];
     }
 }
 

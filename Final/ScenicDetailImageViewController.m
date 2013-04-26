@@ -14,13 +14,17 @@
 
 @implementation ScenicDetailImageViewController
 @synthesize tapGesture   = _tapGesture;
+@synthesize pageControl  = _pageControl;
+@synthesize pageNumber   = _pageNumber;
 //@synthesize swipeGesture = _swipeGesture;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        _imagesArray = [[NSMutableArray alloc] init];
     }
     return self;
 }
@@ -38,6 +42,7 @@
 	// Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor blackColor];
     
+    NSLog(@"imagesArray : %@",_imagesArray);
     CGRect rect = CGRectMake(0, 0, self.view.bounds.size.width, 460);
     NSLog(@"%f",self.view.bounds.size.height);
     _scrollView = [[APScrollView alloc] initWithFrame:rect];
@@ -46,30 +51,37 @@
     [_scrollView addSubview:[self imageWithFrame:CGRectMake(0,
                                                             0,
                                                             self.view.frame.size.width,
-                                                            self.scrollView.frame.size.height) andImageName:@"IMG_0670.PNG"]];
+                                                            self.scrollView.frame.size.height) andImage:[_imagesArray objectAtIndex:0]]];
     [_scrollView addSubview:[self imageWithFrame:CGRectMake(self.view.frame.size.width,
                                                             0,
                                                             self.view.frame.size.width,
-                                                            self.scrollView.frame.size.height) andImageName:@"IMG_0671.PNG"]];
+                                                            self.scrollView.frame.size.height) andImage:[_imagesArray objectAtIndex:1]]];
     
     [_scrollView addSubview:[self imageWithFrame:CGRectMake(self.view.frame.size.width*2,
                                                             0,
                                                             self.view.frame.size.width,
-                                                            self.scrollView.frame.size.height) andImageName:@"IMG_0673.PNG"]];
-    
+                                                            self.scrollView.frame.size.height) andImage:[_imagesArray objectAtIndex:2]]];
+
+    _pageControl.currentPage = [_pageNumber intValue];
+    CGPoint point = CGPointMake(self.view.frame.size.width * [_pageNumber intValue], 0);
+    _scrollView.contentOffset= point;
     [self.view addSubview:_scrollView];
+
+    NSLog(@"%f,%f",point.x,point.y);
+
     _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(displayNavigation)];
     [self.scrollView addGestureRecognizer:_tapGesture];
-    _scrollView.maximumZoomScale = 2.0f;
+//    _scrollView.
     _scrollView.delegate = self;
     [self.view addSubview:_pageControl];
     [self.view bringSubviewToFront:_pageControl];
-
-//    [self.scrollView addGestureRecognizer:_swipeGesture];
     
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
 
+}
 - (void)displayNavigation
 {
     if (self.navigationController.navigationBarHidden == YES) {
@@ -132,9 +144,8 @@
 }
 
 //创建图片
-- (UIImageView *)imageWithFrame: (CGRect)frame andImageName:(NSString *)imageName{
-    UIImage *image = [UIImage imageNamed:imageName];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+- (UIImageView *)imageWithFrame: (CGRect)frame andImage:(UIImage *)imageName{
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:imageName];
     imageView.frame = frame;
     return imageView;
 }
@@ -163,5 +174,6 @@
 //    [UIView setAnimationDuration:0.4];
 
 }
+
 
 @end

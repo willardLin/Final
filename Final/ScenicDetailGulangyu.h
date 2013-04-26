@@ -14,7 +14,6 @@ typedef enum
     kRiguangyanNameType = 0,
     kShuzhuangNameType,
     kHaoyueyuanNameType,
-    kQinyuanNameType,
     kFengqinNameType,
 }kGulangyuType;
 
