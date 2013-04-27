@@ -38,10 +38,6 @@
     //输出景点名称
 //    NSLog(@"%@",[_scenicDictionary objectForKey:kScenicInformations_Name]);
     _base = [ScenicDetailBase classFromType:kGulangyuNameType];
-    
-//    _base.scenicName = @"你全家";
-//    _base.scenicSubName = @"你老母";
-//    _base.title = kGulangyu;
     [super viewDidLoad];
 
     // Uncomment the following line to preserve selection between presentations.
@@ -76,6 +72,10 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     //返回景点名称
     cell.textLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_Name] objectAtIndex:[indexPath row]];
+<<<<<<< HEAD
+=======
+    cell.detailTextLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_detail] objectAtIndex:[indexPath row]];
+>>>>>>> 添加了中山路
     return cell;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

@@ -68,6 +68,10 @@ CGRect busImageViewOriginalFrame;
     {
         [_scenicSubName removeFromSuperview];
         CGRect rect = _baseScrollView.frame;
+<<<<<<< HEAD
+=======
+        rect.size.height += SEGMENT_HEIGHT;
+>>>>>>> 添加了中山路
         rect.origin.y -= SEGMENT_HEIGHT;
         _baseScrollView.frame = rect;
     }
@@ -89,10 +93,47 @@ CGRect busImageViewOriginalFrame;
     _openTimeLabel.text = [self.base.openTime objectAtIndex:0];
     //价格
     _priceLabel.text    = [self.base.price objectAtIndex:0];
+<<<<<<< HEAD
     //图片
     _imageView1.image = [UIImage imageNamed:kRiguangyan_pic1];
     _imageView2.image = [UIImage imageNamed:kRiguangyan_pic2];
     _imageView3.image = [UIImage imageNamed:kRiguangyan_pic3];
+=======
+    switch (self.base.type)
+    {
+        case kGulangyuNameType :
+        {
+            //图片
+            _imageView1.image = [UIImage imageNamed:kRiguangyan_pic1];
+            _imageView2.image = [UIImage imageNamed:kRiguangyan_pic2];
+            _imageView3.image = [UIImage imageNamed:kRiguangyan_pic3];
+            break;
+        }
+        case kZhongshanluNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kTaiwanxiaochi_pic1];
+            _imageView2.image = [UIImage imageNamed:kTaiwanxiaochi_pic2];
+            _imageView3.image = [UIImage imageNamed:kTaiwanxiaochi_pic3];
+            break;
+
+        }
+//            kNanputuoNameType,
+//            kXiamenDaxueNameType,
+//            kZhiwuyuanNameType,
+//            kNanhualuNameType,
+//            kHuandaoluNameType,
+//            kGuanyinshanNameType,
+//            kTiedaoNameType,
+//            kChenjiagengNameType,
+//            kHaiwanNameType,
+//        kJimeiNameType:
+//            <#statements#>
+//            break;
+            
+        default:
+            break;
+    }
+>>>>>>> 添加了中山路
     //改变下划线位置
     [self changeLabelHeightAndMoveImageViewByIndex:0];
     //地址
@@ -107,6 +148,7 @@ CGRect busImageViewOriginalFrame;
     [_baseScrollView addSubview:view];
     //将pageControl放到视图最上方
     [_baseScrollView bringSubviewToFront:_pageControl];
+<<<<<<< HEAD
     
     //设置委托
     _imagesScrollView.delegate = self;
@@ -114,11 +156,21 @@ CGRect busImageViewOriginalFrame;
     _baseScrollView.pagingEnabled = YES;
     //scrollview只能横向滑动或者竖向滑动
     
+=======
+    
+    //设置委托
+    _imagesScrollView.delegate = self;
+    _baseScrollView.delegate = self;
+    _baseScrollView.pagingEnabled = YES;
+    //scrollview只能横向滑动或者竖向滑动
+    
+>>>>>>> 添加了中山路
     _basePageControl = [[UIPageControl alloc] init];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     _baseScrollView.alwaysBounceVertical = YES;
     _imagesScrollView.directionalLockEnabled = YES;
+<<<<<<< HEAD
     _currentScenicSubImage = kRiguangyan;
 }
 
@@ -141,6 +193,30 @@ CGRect busImageViewOriginalFrame;
     _rightBusLabel.text = [self.base.bus objectAtIndex:index];
 }
 
+=======
+    _currentScenicSubImage = 0;
+}
+
+//设置公交的界面
+- (void)setBusRectByIndex:(NSUInteger)index
+{
+    CGRect rect = _descriptionImageView.frame;
+    NSLog(@"original rect y%f",rect.origin.y);
+    rect.origin.y = rect.origin.y + BETWEEN_IMAGEVIEW_AND_LABEL_HEIGHT;
+    NSLog(@"after rect y%f",rect.origin.y);
+    _leftBusLabel.frame = CGRectMake(26, rect.origin.y, _leftBusLabel.frame.size.width, _leftBusLabel.frame.size.height);
+    
+    CGSize size = CGSizeMake(190, 700);
+    CGRect rightRect = CGRectZero;
+    CGSize labelSize = [[self.base.bus objectAtIndex:index] sizeWithFont:_rightBusLabel.font constrainedToSize:size lineBreakMode:NSLineBreakByCharWrapping];
+    [_rightBusLabel setFrame:CGRectMake(_rightBusLabel.frame.origin.x, rect.origin.y, labelSize.width, labelSize.height)];
+    rightRect = CGRectMake(_descriptionImageView.frame.origin.x, _leftBusLabel.frame.origin.y + labelSize.height + 8 , _busImageView.frame.size.width, _busImageView.frame.size.height);
+    _busImageView.frame = rightRect;
+    rightRect = CGRectZero;
+    _rightBusLabel.text = [self.base.bus objectAtIndex:index];
+}
+
+>>>>>>> 添加了中山路
 //分割线根据label高度来调整位置
 - (void)changeLabelHeightAndMoveImageViewByIndex:(NSUInteger)index
 {
@@ -167,7 +243,11 @@ CGRect busImageViewOriginalFrame;
         ScenicDetailImageViewController *vc = (ScenicDetailImageViewController *)segue.destinationViewController;
         [vc setHidesBottomBarWhenPushed:YES];
         [vc setValue:_pageNumber forKey:@"pageNumber"];
+<<<<<<< HEAD
         [vc setValue:[self.base.imageDictionary objectForKey:_currentScenicSubImage]  forKey:@"imagesArray"];
+=======
+        [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
+>>>>>>> 添加了中山路
     }
 }
 
@@ -201,6 +281,7 @@ CGRect busImageViewOriginalFrame;
 //        NSLog(@"%d",page);
     }
 }
+<<<<<<< HEAD
 
 //子景点变换时做出的相应
 - (IBAction)scenicSubNameDidChanged:(id)sender
@@ -254,5 +335,60 @@ CGRect busImageViewOriginalFrame;
     [self setBusRectByIndex:index];
 //    descriptionImageViewOriginalFrame = ;
 
+=======
+
+//子景点变换时做出的相应
+- (IBAction)scenicSubNameDidChanged:(id)sender
+{
+//    NSLog(@"%d",_scenicSubName.selectedSegmentIndex);
+    int index = _scenicSubName.selectedSegmentIndex;
+    _priceLabel.text = [self.base.price objectAtIndex:index];
+    //加载相应的图片
+    switch (index) {
+        case 0:
+        {
+            _imageView1.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:0];
+            _imageView2.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:1];
+            _imageView3.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:2];
+            _currentScenicSubImage = [NSString stringWithFormat:@"%d",index];
+            break;
+        }
+        case 1:
+        {
+            _imageView1.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:0];
+            _imageView2.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:1];
+            _imageView3.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:2];
+            _currentScenicSubImage = [NSString stringWithFormat:@"%d",index];
+            break;
+        }
+        case 2:
+        {
+            _imageView1.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:0];
+            _imageView2.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:1];
+            _imageView3.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:2];
+            _currentScenicSubImage = [NSString stringWithFormat:@"%d",index];
+            break;
+        }
+        case 3:
+        {
+            _imageView1.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:0];
+            _imageView2.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:1];
+            _imageView3.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:2];
+            _currentScenicSubImage = [NSString stringWithFormat:@"%d",index];
+            break;
+        }
+        default:
+            break;
+    }
+    _priceLabel.text    = [self.base.price objectAtIndex:index];
+    _openTimeLabel.text = [self.base.openTime objectAtIndex:index];
+    _addressLabel.text  = [self.base.address objectAtIndex:index];
+    _rightBusLabel.text = [self.base.bus objectAtIndex:index];
+    _descriptionImageView.frame = descriptionImageViewOriginalFrame;
+    [self changeLabelHeightAndMoveImageViewByIndex:index];
+    [self setBusRectByIndex:index];
+//    descriptionImageViewOriginalFrame = ;
+
+>>>>>>> 添加了中山路
 }
 @end

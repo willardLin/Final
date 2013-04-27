@@ -13,7 +13,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="8g0-sj-xUc" detailTextLabel="PSs-Si-bGo" imageView="aac-7F-ghU" style="IBUITableViewCellStyleSubtitle" id="ypZ-3Z-KmA">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="8g0-sj-xUc" detailTextLabel="Ydw-Qi-2Kk" imageView="NUf-9w-bav" style="IBUITableViewCellStyleSubtitle" id="ypZ-3Z-KmA">
                                 <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -21,21 +21,21 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8g0-sj-xUc">
-                                            <rect key="frame" x="47" y="2" width="38" height="22"/>
+                                            <rect key="frame" x="39" y="2" width="38" height="22"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PSs-Si-bGo">
-                                            <rect key="frame" x="47" y="24" width="36" height="18"/>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ydw-Qi-2Kk">
+                                            <rect key="frame" x="39" y="24" width="47" height="18"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.50196078431372548" green="0.50196078431372548" blue="0.50196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="burberry.png" id="aac-7F-ghU">
-                                            <rect key="frame" x="5" y="5" width="32" height="32"/>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="zhaoxiaojie2.jpg" id="NUf-9w-bav">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
                                     </subviews>
@@ -55,7 +55,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HOZ-Se-M8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1461" y="-398"/>
+            <point key="canvasLocation" x="-1470" y="-398"/>
         </scene>
         <!--Scenic Detail View Controller-->
         <scene sceneID="md8-IR-DQh">
@@ -472,11 +472,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="burberry.png" width="32" height="32"/>
         <image name="cart.png" width="30" height="30"/>
         <image name="gallery.png" width="30" height="30"/>
         <image name="hotel.png" width="53" height="30"/>
         <image name="store.png" width="30" height="30"/>
+        <image name="zhaoxiaojie2.jpg" width="320" height="480"/>
     </resources>
     <classes>
         <class className="SDSegmentedControl" superclassName="UISegmentedControl">
@@ -513,6 +513,12 @@
         </class>
         <class className="ScenicViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicViewController.h"/>
+<<<<<<< HEAD
+=======
+            <relationships>
+                <relationship kind="outlet" name="cellImage" candidateClass="UIImageView"/>
+            </relationships>
+>>>>>>> 添加了中山路
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

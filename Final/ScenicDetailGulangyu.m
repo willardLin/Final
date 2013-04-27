@@ -68,11 +68,15 @@
                                                 [UIImage imageNamed:kFengqin_pic1],
                                                 [UIImage imageNamed:kFengqin_pic2],
                                                 [UIImage imageNamed:kFengqin_pic3], nil];
+<<<<<<< HEAD
             self.imageDictionary = [[NSDictionary alloc] initWithObjectsAndKeys:
                                     riguangyan,kRiguangyan,
                                     shuzhuanghuayuan,kShuzhuang,
                                     haoyueyuan,kHaoyueyuan,
                                     fengqin,kFengqin,nil];
+=======
+            self.imagesArray = [[NSArray alloc] initWithObjects:riguangyan,shuzhuanghuayuan,haoyueyuan,fengqin, nil];
+>>>>>>> 添加了中山路
         });
     }
     

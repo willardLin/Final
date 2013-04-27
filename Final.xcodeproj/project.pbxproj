@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C18DCDB172C112100C916B3 /* zhangsanfeng2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCC7172C112100C916B3 /* zhangsanfeng2.jpg */; };
+		5C18DCDC172C112100C916B3 /* zhangsanfeng2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCC8172C112100C916B3 /* zhangsanfeng2@2x.jpg */; };
+		5C18DCDD172C112100C916B3 /* zhangsanfeng1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCC9172C112100C916B3 /* zhangsanfeng1.jpg */; };
+		5C18DCDE172C112100C916B3 /* zhangsanfeng1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCCA172C112100C916B3 /* zhangsanfeng1@2x.jpg */; };
+		5C18DCDF172C112100C916B3 /* zhangsanfeng3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCCB172C112100C916B3 /* zhangsanfeng3.jpg */; };
+		5C18DCE0172C112100C916B3 /* zhangsanfeng3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCCC172C112100C916B3 /* zhangsanfeng3@2x.jpg */; };
+		5C18DCE1172C112100C916B3 /* zhaoxiaojie1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCCE172C112100C916B3 /* zhaoxiaojie1.jpg */; };
+		5C18DCE2172C112100C916B3 /* zhaoxiaojie1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCCF172C112100C916B3 /* zhaoxiaojie1@2x.jpg */; };
+		5C18DCE3172C112100C916B3 /* zhaoxiaojie2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD0172C112100C916B3 /* zhaoxiaojie2.jpg */; };
+		5C18DCE4172C112100C916B3 /* zhaoxiaojie2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD1172C112100C916B3 /* zhaoxiaojie2@2x.jpg */; };
+		5C18DCE5172C112100C916B3 /* zhaoxiaojie3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD2172C112100C916B3 /* zhaoxiaojie3.jpg */; };
+		5C18DCE6172C112100C916B3 /* zhaoxiaojie3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD3172C112100C916B3 /* zhaoxiaojie3@2x.jpg */; };
+		5C18DCE7172C112100C916B3 /* taiwanxiaochi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD5172C112100C916B3 /* taiwanxiaochi1.jpg */; };
+		5C18DCE8172C112100C916B3 /* taiwanxiaochi1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD6172C112100C916B3 /* taiwanxiaochi1@2x.jpg */; };
+		5C18DCE9172C112100C916B3 /* taiwanxiaochi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD7172C112100C916B3 /* taiwanxiaochi2.jpg */; };
+		5C18DCEA172C112100C916B3 /* taiwanxiaochi2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD8172C112100C916B3 /* taiwanxiaochi2@2x.jpg */; };
+		5C18DCEB172C112100C916B3 /* taiwanxiaochi3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCD9172C112100C916B3 /* taiwanxiaochi3.jpg */; };
+		5C18DCEC172C112100C916B3 /* taiwanxiaochi3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCDA172C112100C916B3 /* taiwanxiaochi3@2x.jpg */; };
 		5C3D3887171B21DD004C9B34 /* small_10@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D3870171B21DD004C9B34 /* small_10@2x.jpg */; };
 		5C3D3888171B21DD004C9B34 /* small_11@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D3871171B21DD004C9B34 /* small_11@2x.jpg */; };
 		5C3D3889171B21DD004C9B34 /* small_1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C3D3872171B21DD004C9B34 /* small_1@2x.jpg */; };
@@ -101,6 +119,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C18DCC7172C112100C916B3 /* zhangsanfeng2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangsanfeng2.jpg; sourceTree = "<group>"; };
+		5C18DCC8172C112100C916B3 /* zhangsanfeng2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhangsanfeng2@2x.jpg"; sourceTree = "<group>"; };
+		5C18DCC9172C112100C916B3 /* zhangsanfeng1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangsanfeng1.jpg; sourceTree = "<group>"; };
+		5C18DCCA172C112100C916B3 /* zhangsanfeng1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhangsanfeng1@2x.jpg"; sourceTree = "<group>"; };
+		5C18DCCB172C112100C916B3 /* zhangsanfeng3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangsanfeng3.jpg; sourceTree = "<group>"; };
+		5C18DCCC172C112100C916B3 /* zhangsanfeng3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhangsanfeng3@2x.jpg"; sourceTree = "<group>"; };
+		5C18DCCE172C112100C916B3 /* zhaoxiaojie1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhaoxiaojie1.jpg; sourceTree = "<group>"; };
+		5C18DCCF172C112100C916B3 /* zhaoxiaojie1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhaoxiaojie1@2x.jpg"; sourceTree = "<group>"; };
+		5C18DCD0172C112100C916B3 /* zhaoxiaojie2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhaoxiaojie2.jpg; sourceTree = "<group>"; };
+		5C18DCD1172C112100C916B3 /* zhaoxiaojie2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhaoxiaojie2@2x.jpg"; sourceTree = "<group>"; };
+		5C18DCD2172C112100C916B3 /* zhaoxiaojie3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhaoxiaojie3.jpg; sourceTree = "<group>"; };
+		5C18DCD3172C112100C916B3 /* zhaoxiaojie3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhaoxiaojie3@2x.jpg"; sourceTree = "<group>"; };
+		5C18DCD5172C112100C916B3 /* taiwanxiaochi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taiwanxiaochi1.jpg; sourceTree = "<group>"; };
+		5C18DCD6172C112100C916B3 /* taiwanxiaochi1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taiwanxiaochi1@2x.jpg"; sourceTree = "<group>"; };
+		5C18DCD7172C112100C916B3 /* taiwanxiaochi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taiwanxiaochi2.jpg; sourceTree = "<group>"; };
+		5C18DCD8172C112100C916B3 /* taiwanxiaochi2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taiwanxiaochi2@2x.jpg"; sourceTree = "<group>"; };
+		5C18DCD9172C112100C916B3 /* taiwanxiaochi3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taiwanxiaochi3.jpg; sourceTree = "<group>"; };
+		5C18DCDA172C112100C916B3 /* taiwanxiaochi3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taiwanxiaochi3@2x.jpg"; sourceTree = "<group>"; };
 		5C3D3870171B21DD004C9B34 /* small_10@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "small_10@2x.jpg"; sourceTree = "<group>"; };
 		5C3D3871171B21DD004C9B34 /* small_11@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "small_11@2x.jpg"; sourceTree = "<group>"; };
 		5C3D3872171B21DD004C9B34 /* small_1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "small_1@2x.jpg"; sourceTree = "<group>"; };
@@ -234,6 +270,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C18DCC6172C112100C916B3 /* 张三疯 */ = {
+			isa = PBXGroup;
+			children = (
+				5C18DCC9172C112100C916B3 /* zhangsanfeng1.jpg */,
+				5C18DCCA172C112100C916B3 /* zhangsanfeng1@2x.jpg */,
+				5C18DCC7172C112100C916B3 /* zhangsanfeng2.jpg */,
+				5C18DCC8172C112100C916B3 /* zhangsanfeng2@2x.jpg */,
+				5C18DCCB172C112100C916B3 /* zhangsanfeng3.jpg */,
+				5C18DCCC172C112100C916B3 /* zhangsanfeng3@2x.jpg */,
+			);
+			path = "张三疯";
+			sourceTree = "<group>";
+		};
+		5C18DCCD172C112100C916B3 /* 赵小姐的店 */ = {
+			isa = PBXGroup;
+			children = (
+				5C18DCCE172C112100C916B3 /* zhaoxiaojie1.jpg */,
+				5C18DCCF172C112100C916B3 /* zhaoxiaojie1@2x.jpg */,
+				5C18DCD0172C112100C916B3 /* zhaoxiaojie2.jpg */,
+				5C18DCD1172C112100C916B3 /* zhaoxiaojie2@2x.jpg */,
+				5C18DCD2172C112100C916B3 /* zhaoxiaojie3.jpg */,
+				5C18DCD3172C112100C916B3 /* zhaoxiaojie3@2x.jpg */,
+			);
+			path = "赵小姐的店";
+			sourceTree = "<group>";
+		};
+		5C18DCD4172C112100C916B3 /* 台湾小吃街 */ = {
+			isa = PBXGroup;
+			children = (
+				5C18DCD5172C112100C916B3 /* taiwanxiaochi1.jpg */,
+				5C18DCD6172C112100C916B3 /* taiwanxiaochi1@2x.jpg */,
+				5C18DCD7172C112100C916B3 /* taiwanxiaochi2.jpg */,
+				5C18DCD8172C112100C916B3 /* taiwanxiaochi2@2x.jpg */,
+				5C18DCD9172C112100C916B3 /* taiwanxiaochi3.jpg */,
+				5C18DCDA172C112100C916B3 /* taiwanxiaochi3@2x.jpg */,
+			);
+			path = "台湾小吃街";
+			sourceTree = "<group>";
+		};
 		5C3D386E171B21A9004C9B34 /* 景点图片 */ = {
 			isa = PBXGroup;
 			children = (
@@ -405,6 +480,9 @@
 		5C989BF8171B158000DB7E5A /* 中山路 */ = {
 			isa = PBXGroup;
 			children = (
+				5C18DCC6172C112100C916B3 /* 张三疯 */,
+				5C18DCCD172C112100C916B3 /* 赵小姐的店 */,
+				5C18DCD4172C112100C916B3 /* 台湾小吃街 */,
 				5C989BF9171B15B300DB7E5A /* ScenicDetailZhongshanlu.h */,
 				5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */,
 			);
@@ -705,6 +783,27 @@
 				5C69CCDF172969F700811278 /* fengqin3@2x.jpg in Resources */,
 				5C69CCE0172969F700811278 /* fengqin2@2x.jpg in Resources */,
 				5C69CCE1172969F700811278 /* fengqin1@2x.jpg in Resources */,
+<<<<<<< HEAD
+=======
+				5C18DCDB172C112100C916B3 /* zhangsanfeng2.jpg in Resources */,
+				5C18DCDC172C112100C916B3 /* zhangsanfeng2@2x.jpg in Resources */,
+				5C18DCDD172C112100C916B3 /* zhangsanfeng1.jpg in Resources */,
+				5C18DCDE172C112100C916B3 /* zhangsanfeng1@2x.jpg in Resources */,
+				5C18DCDF172C112100C916B3 /* zhangsanfeng3.jpg in Resources */,
+				5C18DCE0172C112100C916B3 /* zhangsanfeng3@2x.jpg in Resources */,
+				5C18DCE1172C112100C916B3 /* zhaoxiaojie1.jpg in Resources */,
+				5C18DCE2172C112100C916B3 /* zhaoxiaojie1@2x.jpg in Resources */,
+				5C18DCE3172C112100C916B3 /* zhaoxiaojie2.jpg in Resources */,
+				5C18DCE4172C112100C916B3 /* zhaoxiaojie2@2x.jpg in Resources */,
+				5C18DCE5172C112100C916B3 /* zhaoxiaojie3.jpg in Resources */,
+				5C18DCE6172C112100C916B3 /* zhaoxiaojie3@2x.jpg in Resources */,
+				5C18DCE7172C112100C916B3 /* taiwanxiaochi1.jpg in Resources */,
+				5C18DCE8172C112100C916B3 /* taiwanxiaochi1@2x.jpg in Resources */,
+				5C18DCE9172C112100C916B3 /* taiwanxiaochi2.jpg in Resources */,
+				5C18DCEA172C112100C916B3 /* taiwanxiaochi2@2x.jpg in Resources */,
+				5C18DCEB172C112100C916B3 /* taiwanxiaochi3.jpg in Resources */,
+				5C18DCEC172C112100C916B3 /* taiwanxiaochi3@2x.jpg in Resources */,
+>>>>>>> 添加了中山路
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
