@@ -69,9 +69,13 @@ CGRect busImageViewOriginalFrame;
         [_scenicSubName removeFromSuperview];
         CGRect rect = _baseScrollView.frame;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         rect.size.height += SEGMENT_HEIGHT;
 >>>>>>> 添加了中山路
+=======
+        rect.size.height += SEGMENT_HEIGHT;
+>>>>>>> 更新了南普陀寺
         rect.origin.y -= SEGMENT_HEIGHT;
         _baseScrollView.frame = rect;
     }
@@ -94,11 +98,14 @@ CGRect busImageViewOriginalFrame;
     //价格
     _priceLabel.text    = [self.base.price objectAtIndex:0];
 <<<<<<< HEAD
+<<<<<<< HEAD
     //图片
     _imageView1.image = [UIImage imageNamed:kRiguangyan_pic1];
     _imageView2.image = [UIImage imageNamed:kRiguangyan_pic2];
     _imageView3.image = [UIImage imageNamed:kRiguangyan_pic3];
 =======
+=======
+>>>>>>> 更新了南普陀寺
     switch (self.base.type)
     {
         case kGulangyuNameType :
@@ -117,6 +124,16 @@ CGRect busImageViewOriginalFrame;
             break;
 
         }
+<<<<<<< HEAD
+=======
+        case kNanputuoNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kTianwangdian_pic1];
+            _imageView2.image = [UIImage imageNamed:kTianwangdian_pic2];
+            _imageView3.image = [UIImage imageNamed:kTianwangdian_pic3];
+            break;
+        }
+>>>>>>> 更新了南普陀寺
 //            kNanputuoNameType,
 //            kXiamenDaxueNameType,
 //            kZhiwuyuanNameType,
@@ -133,7 +150,10 @@ CGRect busImageViewOriginalFrame;
         default:
             break;
     }
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
+=======
+>>>>>>> 更新了南普陀寺
     //改变下划线位置
     [self changeLabelHeightAndMoveImageViewByIndex:0];
     //地址
@@ -149,6 +169,9 @@ CGRect busImageViewOriginalFrame;
     //将pageControl放到视图最上方
     [_baseScrollView bringSubviewToFront:_pageControl];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 更新了南普陀寺
     
     //设置委托
     _imagesScrollView.delegate = self;
@@ -156,6 +179,7 @@ CGRect busImageViewOriginalFrame;
     _baseScrollView.pagingEnabled = YES;
     //scrollview只能横向滑动或者竖向滑动
     
+<<<<<<< HEAD
 =======
     
     //设置委托
@@ -165,11 +189,14 @@ CGRect busImageViewOriginalFrame;
     //scrollview只能横向滑动或者竖向滑动
     
 >>>>>>> 添加了中山路
+=======
+>>>>>>> 更新了南普陀寺
     _basePageControl = [[UIPageControl alloc] init];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     _baseScrollView.alwaysBounceVertical = YES;
     _imagesScrollView.directionalLockEnabled = YES;
+<<<<<<< HEAD
 <<<<<<< HEAD
     _currentScenicSubImage = kRiguangyan;
 }
@@ -197,6 +224,11 @@ CGRect busImageViewOriginalFrame;
     _currentScenicSubImage = 0;
 }
 
+=======
+    _currentScenicSubImage = 0;
+}
+
+>>>>>>> 更新了南普陀寺
 //设置公交的界面
 - (void)setBusRectByIndex:(NSUInteger)index
 {
@@ -216,7 +248,10 @@ CGRect busImageViewOriginalFrame;
     _rightBusLabel.text = [self.base.bus objectAtIndex:index];
 }
 
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
+=======
+>>>>>>> 更新了南普陀寺
 //分割线根据label高度来调整位置
 - (void)changeLabelHeightAndMoveImageViewByIndex:(NSUInteger)index
 {
@@ -244,10 +279,14 @@ CGRect busImageViewOriginalFrame;
         [vc setHidesBottomBarWhenPushed:YES];
         [vc setValue:_pageNumber forKey:@"pageNumber"];
 <<<<<<< HEAD
+<<<<<<< HEAD
         [vc setValue:[self.base.imageDictionary objectForKey:_currentScenicSubImage]  forKey:@"imagesArray"];
 =======
         [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
 >>>>>>> 添加了中山路
+=======
+        [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
+>>>>>>> 更新了南普陀寺
     }
 }
 
@@ -281,6 +320,7 @@ CGRect busImageViewOriginalFrame;
 //        NSLog(@"%d",page);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 //子景点变换时做出的相应
@@ -390,5 +430,60 @@ CGRect busImageViewOriginalFrame;
 //    descriptionImageViewOriginalFrame = ;
 
 >>>>>>> 添加了中山路
+=======
+
+//子景点变换时做出的相应
+- (IBAction)scenicSubNameDidChanged:(id)sender
+{
+//    NSLog(@"%d",_scenicSubName.selectedSegmentIndex);
+    int index = _scenicSubName.selectedSegmentIndex;
+    _priceLabel.text = [self.base.price objectAtIndex:index];
+    //加载相应的图片
+    switch (index) {
+        case 0:
+        {
+            _imageView1.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:0];
+            _imageView2.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:1];
+            _imageView3.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:2];
+            _currentScenicSubImage = [NSString stringWithFormat:@"%d",index];
+            break;
+        }
+        case 1:
+        {
+            _imageView1.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:0];
+            _imageView2.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:1];
+            _imageView3.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:2];
+            _currentScenicSubImage = [NSString stringWithFormat:@"%d",index];
+            break;
+        }
+        case 2:
+        {
+            _imageView1.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:0];
+            _imageView2.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:1];
+            _imageView3.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:2];
+            _currentScenicSubImage = [NSString stringWithFormat:@"%d",index];
+            break;
+        }
+        case 3:
+        {
+            _imageView1.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:0];
+            _imageView2.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:1];
+            _imageView3.image = [[self.base.imagesArray objectAtIndex:index] objectAtIndex:2];
+            _currentScenicSubImage = [NSString stringWithFormat:@"%d",index];
+            break;
+        }
+        default:
+            break;
+    }
+    _priceLabel.text    = [self.base.price objectAtIndex:index];
+    _openTimeLabel.text = [self.base.openTime objectAtIndex:index];
+    _addressLabel.text  = [self.base.address objectAtIndex:index];
+    _rightBusLabel.text = [self.base.bus objectAtIndex:index];
+    _descriptionImageView.frame = descriptionImageViewOriginalFrame;
+    [self changeLabelHeightAndMoveImageViewByIndex:index];
+    [self setBusRectByIndex:index];
+//    descriptionImageViewOriginalFrame = ;
+
+>>>>>>> 更新了南普陀寺
 }
 @end

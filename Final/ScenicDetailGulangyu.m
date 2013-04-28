@@ -45,10 +45,17 @@
         self.title = kGulangyu;
         self.scenicSubNameCount = self.scenicSubName.count;
         self.bus = [[NSArray alloc] initWithObjects:
+<<<<<<< HEAD
                     kRiguangyan_Bus,
                     kShuzhuanghuayuan_Bus,
                     kHaoyueyuan_Bus,
                     kFengqin_Bus, nil];
+=======
+                    kRiguangyan_bus,
+                    kShuzhuanghuayuan_bus,
+                    kHaoyueyuan_bus,
+                    kFengqin_bus, nil];
+>>>>>>> 更新了南普陀寺
         dispatch_queue_t queue = dispatch_get_main_queue();
       
         dispatch_async(queue,^{
@@ -69,6 +76,7 @@
                                                 [UIImage imageNamed:kFengqin_pic2],
                                                 [UIImage imageNamed:kFengqin_pic3], nil];
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.imageDictionary = [[NSDictionary alloc] initWithObjectsAndKeys:
                                     riguangyan,kRiguangyan,
                                     shuzhuanghuayuan,kShuzhuang,
@@ -77,6 +85,9 @@
 =======
             self.imagesArray = [[NSArray alloc] initWithObjects:riguangyan,shuzhuanghuayuan,haoyueyuan,fengqin, nil];
 >>>>>>> 添加了中山路
+=======
+            self.imagesArray = [[NSArray alloc] initWithObjects:riguangyan,shuzhuanghuayuan,haoyueyuan,fengqin, nil];
+>>>>>>> 更新了南普陀寺
         });
     }
     

@@ -514,11 +514,17 @@
         <class className="ScenicViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicViewController.h"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <relationships>
                 <relationship kind="outlet" name="cellImage" candidateClass="UIImageView"/>
             </relationships>
 >>>>>>> 添加了中山路
+=======
+            <relationships>
+                <relationship kind="outlet" name="cellImage" candidateClass="UIImageView"/>
+            </relationships>
+>>>>>>> 更新了南普陀寺
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

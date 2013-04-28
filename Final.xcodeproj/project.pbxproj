@@ -84,6 +84,27 @@
 		5C989BFB171B15B300DB7E5A /* ScenicDetailZhongshanlu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */; };
 		5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB317185C6800654214 /* ScenicDetailBase.m */; };
 		5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */; };
+<<<<<<< HEAD
+=======
+		5CE558AA172D51E2008EC2D3 /* wulaofeng1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */; };
+		5CE558AB172D51E2008EC2D3 /* wulaofeng1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */; };
+		5CE558AC172D51E2008EC2D3 /* wulaofeng2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */; };
+		5CE558AD172D51E2008EC2D3 /* wulaofeng2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55899172D51E2008EC2D3 /* wulaofeng2@2x.jpg */; };
+		5CE558AE172D51E2008EC2D3 /* wulaofeng3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5589A172D51E2008EC2D3 /* wulaofeng3.jpg */; };
+		5CE558AF172D51E2008EC2D3 /* wulaofeng3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5589B172D51E2008EC2D3 /* wulaofeng3@2x.jpg */; };
+		5CE558B0172D51E2008EC2D3 /* dabeidian1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5589D172D51E2008EC2D3 /* dabeidian1.jpg */; };
+		5CE558B1172D51E2008EC2D3 /* dabeidian1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5589E172D51E2008EC2D3 /* dabeidian1@2x.jpg */; };
+		5CE558B2172D51E2008EC2D3 /* dabeidian2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE5589F172D51E2008EC2D3 /* dabeidian2.jpg */; };
+		5CE558B3172D51E2008EC2D3 /* dabeidian2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A0172D51E2008EC2D3 /* dabeidian2@2x.jpg */; };
+		5CE558B4172D51E2008EC2D3 /* dabeidian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A1172D51E2008EC2D3 /* dabeidian3.jpg */; };
+		5CE558B5172D51E2008EC2D3 /* dabeidian3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A2172D51E2008EC2D3 /* dabeidian3@2x.jpg */; };
+		5CE558B6172D51E2008EC2D3 /* tianwangdian1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A4172D51E2008EC2D3 /* tianwangdian1.jpg */; };
+		5CE558B7172D51E2008EC2D3 /* tianwangdian1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A5172D51E2008EC2D3 /* tianwangdian1@2x.jpg */; };
+		5CE558B8172D51E2008EC2D3 /* tianwangdian2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A6172D51E2008EC2D3 /* tianwangdian2.jpg */; };
+		5CE558B9172D51E2008EC2D3 /* tianwangdian2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A7172D51E2008EC2D3 /* tianwangdian2@2x.jpg */; };
+		5CE558BA172D51E2008EC2D3 /* tianwangdian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A8172D51E2008EC2D3 /* tianwangdian3.jpg */; };
+		5CE558BB172D51E2008EC2D3 /* tianwangdian3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A9172D51E2008EC2D3 /* tianwangdian3@2x.jpg */; };
+>>>>>>> 更新了南普陀寺
 		847761F51726301D009049B8 /* SDSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 847761F41726301D009049B8 /* SDSegmentedControl.m */; };
 		849658BA171BD1D500274698 /* ScenicDetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658B9171BD1D500274698 /* ScenicDetailImageViewController.m */; };
 		849658BE171BD56E00274698 /* APScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658BD171BD56E00274698 /* APScrollView.m */; };
@@ -209,6 +230,27 @@
 		5CCB5BB317185C6800654214 /* ScenicDetailBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailBase.m; sourceTree = "<group>"; };
 		5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailGulangyu.h; sourceTree = "<group>"; };
 		5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailGulangyu.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng1.jpg; sourceTree = "<group>"; };
+		5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wulaofeng1@2x.jpg"; sourceTree = "<group>"; };
+		5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng2.jpg; sourceTree = "<group>"; };
+		5CE55899172D51E2008EC2D3 /* wulaofeng2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wulaofeng2@2x.jpg"; sourceTree = "<group>"; };
+		5CE5589A172D51E2008EC2D3 /* wulaofeng3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng3.jpg; sourceTree = "<group>"; };
+		5CE5589B172D51E2008EC2D3 /* wulaofeng3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wulaofeng3@2x.jpg"; sourceTree = "<group>"; };
+		5CE5589D172D51E2008EC2D3 /* dabeidian1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dabeidian1.jpg; sourceTree = "<group>"; };
+		5CE5589E172D51E2008EC2D3 /* dabeidian1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dabeidian1@2x.jpg"; sourceTree = "<group>"; };
+		5CE5589F172D51E2008EC2D3 /* dabeidian2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dabeidian2.jpg; sourceTree = "<group>"; };
+		5CE558A0172D51E2008EC2D3 /* dabeidian2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dabeidian2@2x.jpg"; sourceTree = "<group>"; };
+		5CE558A1172D51E2008EC2D3 /* dabeidian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dabeidian3.jpg; sourceTree = "<group>"; };
+		5CE558A2172D51E2008EC2D3 /* dabeidian3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dabeidian3@2x.jpg"; sourceTree = "<group>"; };
+		5CE558A4172D51E2008EC2D3 /* tianwangdian1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tianwangdian1.jpg; sourceTree = "<group>"; };
+		5CE558A5172D51E2008EC2D3 /* tianwangdian1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tianwangdian1@2x.jpg"; sourceTree = "<group>"; };
+		5CE558A6172D51E2008EC2D3 /* tianwangdian2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tianwangdian2.jpg; sourceTree = "<group>"; };
+		5CE558A7172D51E2008EC2D3 /* tianwangdian2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tianwangdian2@2x.jpg"; sourceTree = "<group>"; };
+		5CE558A8172D51E2008EC2D3 /* tianwangdian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tianwangdian3.jpg; sourceTree = "<group>"; };
+		5CE558A9172D51E2008EC2D3 /* tianwangdian3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tianwangdian3@2x.jpg"; sourceTree = "<group>"; };
+>>>>>>> 更新了南普陀寺
 		847761F31726301D009049B8 /* SDSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSegmentedControl.h; sourceTree = "<group>"; };
 		847761F41726301D009049B8 /* SDSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSegmentedControl.m; sourceTree = "<group>"; };
 		849658B8171BD1D500274698 /* ScenicDetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailImageViewController.h; sourceTree = "<group>"; };
@@ -364,6 +406,9 @@
 		5C3D389D171B2597004C9B34 /* 南普陀 */ = {
 			isa = PBXGroup;
 			children = (
+				5CE55895172D51E2008EC2D3 /* 五老峰 */,
+				5CE5589C172D51E2008EC2D3 /* 大悲殿 */,
+				5CE558A3172D51E2008EC2D3 /* 天王殿 */,
 				5C3D38A8171B26E0004C9B34 /* ScenicDetailNanputuo.h */,
 				5C3D38A9171B26E0004C9B34 /* ScenicDetailNanputuo.m */,
 			);
@@ -489,6 +534,48 @@
 			name = "中山路";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		5CE55895172D51E2008EC2D3 /* 五老峰 */ = {
+			isa = PBXGroup;
+			children = (
+				5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */,
+				5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */,
+				5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */,
+				5CE55899172D51E2008EC2D3 /* wulaofeng2@2x.jpg */,
+				5CE5589A172D51E2008EC2D3 /* wulaofeng3.jpg */,
+				5CE5589B172D51E2008EC2D3 /* wulaofeng3@2x.jpg */,
+			);
+			path = "五老峰";
+			sourceTree = "<group>";
+		};
+		5CE5589C172D51E2008EC2D3 /* 大悲殿 */ = {
+			isa = PBXGroup;
+			children = (
+				5CE5589D172D51E2008EC2D3 /* dabeidian1.jpg */,
+				5CE5589E172D51E2008EC2D3 /* dabeidian1@2x.jpg */,
+				5CE5589F172D51E2008EC2D3 /* dabeidian2.jpg */,
+				5CE558A0172D51E2008EC2D3 /* dabeidian2@2x.jpg */,
+				5CE558A1172D51E2008EC2D3 /* dabeidian3.jpg */,
+				5CE558A2172D51E2008EC2D3 /* dabeidian3@2x.jpg */,
+			);
+			path = "大悲殿";
+			sourceTree = "<group>";
+		};
+		5CE558A3172D51E2008EC2D3 /* 天王殿 */ = {
+			isa = PBXGroup;
+			children = (
+				5CE558A4172D51E2008EC2D3 /* tianwangdian1.jpg */,
+				5CE558A5172D51E2008EC2D3 /* tianwangdian1@2x.jpg */,
+				5CE558A6172D51E2008EC2D3 /* tianwangdian2.jpg */,
+				5CE558A7172D51E2008EC2D3 /* tianwangdian2@2x.jpg */,
+				5CE558A8172D51E2008EC2D3 /* tianwangdian3.jpg */,
+				5CE558A9172D51E2008EC2D3 /* tianwangdian3@2x.jpg */,
+			);
+			path = "天王殿";
+			sourceTree = "<group>";
+		};
+>>>>>>> 更新了南普陀寺
 		843F211A171E3516009E44DD /* 日光岩 */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,7 +871,10 @@
 				5C69CCE0172969F700811278 /* fengqin2@2x.jpg in Resources */,
 				5C69CCE1172969F700811278 /* fengqin1@2x.jpg in Resources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 更新了南普陀寺
 				5C18DCDB172C112100C916B3 /* zhangsanfeng2.jpg in Resources */,
 				5C18DCDC172C112100C916B3 /* zhangsanfeng2@2x.jpg in Resources */,
 				5C18DCDD172C112100C916B3 /* zhangsanfeng1.jpg in Resources */,
@@ -803,7 +893,28 @@
 				5C18DCEA172C112100C916B3 /* taiwanxiaochi2@2x.jpg in Resources */,
 				5C18DCEB172C112100C916B3 /* taiwanxiaochi3.jpg in Resources */,
 				5C18DCEC172C112100C916B3 /* taiwanxiaochi3@2x.jpg in Resources */,
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
+=======
+				5CE558AA172D51E2008EC2D3 /* wulaofeng1.jpg in Resources */,
+				5CE558AB172D51E2008EC2D3 /* wulaofeng1@2x.jpg in Resources */,
+				5CE558AC172D51E2008EC2D3 /* wulaofeng2.jpg in Resources */,
+				5CE558AD172D51E2008EC2D3 /* wulaofeng2@2x.jpg in Resources */,
+				5CE558AE172D51E2008EC2D3 /* wulaofeng3.jpg in Resources */,
+				5CE558AF172D51E2008EC2D3 /* wulaofeng3@2x.jpg in Resources */,
+				5CE558B0172D51E2008EC2D3 /* dabeidian1.jpg in Resources */,
+				5CE558B1172D51E2008EC2D3 /* dabeidian1@2x.jpg in Resources */,
+				5CE558B2172D51E2008EC2D3 /* dabeidian2.jpg in Resources */,
+				5CE558B3172D51E2008EC2D3 /* dabeidian2@2x.jpg in Resources */,
+				5CE558B4172D51E2008EC2D3 /* dabeidian3.jpg in Resources */,
+				5CE558B5172D51E2008EC2D3 /* dabeidian3@2x.jpg in Resources */,
+				5CE558B6172D51E2008EC2D3 /* tianwangdian1.jpg in Resources */,
+				5CE558B7172D51E2008EC2D3 /* tianwangdian1@2x.jpg in Resources */,
+				5CE558B8172D51E2008EC2D3 /* tianwangdian2.jpg in Resources */,
+				5CE558B9172D51E2008EC2D3 /* tianwangdian2@2x.jpg in Resources */,
+				5CE558BA172D51E2008EC2D3 /* tianwangdian3.jpg in Resources */,
+				5CE558BB172D51E2008EC2D3 /* tianwangdian3@2x.jpg in Resources */,
+>>>>>>> 更新了南普陀寺
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

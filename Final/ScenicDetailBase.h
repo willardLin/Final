@@ -39,10 +39,14 @@ typedef enum
 @property (nonatomic,assign) kClassScenicNameType type;
 //景点图片
 <<<<<<< HEAD
+<<<<<<< HEAD
 @property (nonatomic,strong) NSDictionary *imageDictionary;
 =======
 @property (nonatomic,strong) NSArray *imagesArray;
 >>>>>>> 添加了中山路
+=======
+@property (nonatomic,strong) NSArray *imagesArray;
+>>>>>>> 更新了南普陀寺
 //价格
 @property (nonatomic,strong) NSArray *price;
 ////地址

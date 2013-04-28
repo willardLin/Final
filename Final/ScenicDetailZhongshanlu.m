@@ -14,10 +14,13 @@
     if (self = [super init])
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         self.scenicName = kZhongshanlu;
 //        self.scenicSubName = kZhongshanlu_taiwanjie;
         self.title = kZhongshanlu;
 =======
+=======
+>>>>>>> 更新了南普陀寺
         
         self.scenicName = kGulangyu;
         self.scenicSubName = [[NSMutableArray alloc] initWithObjects:
@@ -49,9 +52,15 @@
         self.title = kZhongshanlu;
         self.scenicSubNameCount = self.scenicSubName.count;
         self.bus = [[NSArray alloc] initWithObjects:
+<<<<<<< HEAD
                     kTaiwanxiaochi_Bus,
                     kZhaoxiaojie_Bus,
                     kZhangsanfeng_Bus,
+=======
+                    kTaiwanxiaochi_bus,
+                    kZhaoxiaojie_bus,
+                    kZhangsanfeng_bus,
+>>>>>>> 更新了南普陀寺
                     nil];
         dispatch_queue_t queue = dispatch_get_main_queue();
         
@@ -77,7 +86,10 @@
                                 zhangsanfeng,
                                 nil];
         });
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
+=======
+>>>>>>> 更新了南普陀寺
     }
     
     return self;

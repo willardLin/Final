@@ -16,11 +16,12 @@
 /***************景点字符串*************/
 
 ////////////////////鼓浪屿///////////////////
-#define kGulangyu @"鼓浪屿"
+#define kGulangyu    @"鼓浪屿"
 #define kGulangyu_riguangyan @"日光岩"
 #define kGulangyu_shuzhuang  @"菽庄花园"
 #define kGulangyu_haoyueyuan @"皓月园"
 #define kGulangyu_fengqin    @"风琴博物馆"
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ////////////////////图片NSDictionary的key//////////
@@ -92,17 +93,25 @@
 
 =======
 >>>>>>> 添加了中山路
+=======
+>>>>>>> 更新了南普陀寺
 /////////////////中山路///////////////////////
 #define kZhongshanlu @"中山路"
 #define kZhongshanlu_taiwanjie    @"台湾小吃街"
 #define kZhongshanlu_zhangsanfeng @"张三疯"
 #define kZhongshanlu_zhaoxiaojie  @"赵小姐的店"
 <<<<<<< HEAD
+<<<<<<< HEAD
 /////////////////////////////////////////////
 =======
 /////////////////南普陀寺///////////////////////
 #define kNanputuo_tianwangdian    @"天王殿"
 #define kNanputuo_daxiongbaodian  @"大雄宝殿"
+=======
+/////////////////南普陀寺///////////////////////
+#define kNanputuo    @"南普陀寺"
+#define kNanputuo_tianwangdian    @"天王殿"
+>>>>>>> 更新了南普陀寺
 #define kNanputuo_dabeidian       @"大悲殿"
 #define kNanputuo_wulaofeng       @"五老峰"
 
@@ -153,10 +162,13 @@
 #define kTianwangdian_pic1     @"tianwangdian1.jpg"
 #define kTianwangdian_pic2     @"tianwangdian2.jpg"
 #define kTianwangdian_pic3     @"tianwangdian3.jpg"
+<<<<<<< HEAD
 //大雄宝殿
 #define kDaxiongbaodian_pic1   @"daxiongbaodian1.jpg"
 #define kDaxiongbaodian_pic2   @"daxiongbaodian2.jpg"
 #define kDaxiongbaodian_pic3   @"daxiongbaodian3.jpg"
+=======
+>>>>>>> 更新了南普陀寺
 //大悲殿
 #define kDabeidian_pic1        @"dabeidian1.jpg"
 #define kDabeidian_pic2        @"dabeidian2.jpg"
@@ -185,7 +197,10 @@
 #define kZhangsanfeng_openTime     @"09:00-22:30"
 ///////////////////////南普陀寺////////////////////////////////
 #define kTianwangdian_openTime     @"08:00-20:00"  
+<<<<<<< HEAD
 #define kDaxiongbaodian_openTime   @"08:00-20:00"
+=======
+>>>>>>> 更新了南普陀寺
 #define kDabeidian_openTime        @"08:00-20:00"
 #define kWulaofeng_openTime        @"08:00-20:00"
 
@@ -201,7 +216,10 @@
 #define kZhangsanfeng_price     @"20"
 //////////////////////南普陀寺/////////////////////////////////
 #define kTianwangdian_price     @"免费"
+<<<<<<< HEAD
 #define kDaxiongbaodian_price   @"免费"
+=======
+>>>>>>> 更新了南普陀寺
 #define kDabeidian_price        @"免费"
 #define kWulaofeng_price        @"免费"
 
@@ -222,7 +240,10 @@
 #define kZhangsanfeng_address     @"思明区中山路37号"
 ///////////////////////南普陀寺//////////////////////////////////
 #define kTianwangdian_address     @"思明区思明南路515号"
+<<<<<<< HEAD
 #define kDaxiongbaodian_address   @"思明区思明南路515号"
+=======
+>>>>>>> 更新了南普陀寺
 #define kDabeidian_address        @"思明区思明南路515号"
 #define kWulaofeng_address        @"思明区思明南路515号"
 
@@ -242,7 +263,10 @@
 #define kZhangsanfeng_description     @"张三疯可能是鼓浪屿最知名的猫咪了,以他名字命名的奶茶店,张三疯奶茶铺“爱自己，爱生活，爱家人”的理念，让所有游客到此都不得不放慢脚步。更有趣的是张三疯奶茶店的“三不一没有”店规——不抽烟不打牌不接吻，没有表白别走。"
 ///////////////////////南普陀寺//////////////////////////////////
 #define kTianwangdian_description     @"跨门进殿，两侧四大天王怒目环视。正中弥勒菩萨坦腹露胸，常开笑口，给人以欢喜信受的美感，殿后韦陀菩萨覆掌按杵而立，威武异常。"
+<<<<<<< HEAD
 #define kDaxiongbaodian_description   @"大雄宝殿是寺院的主体中心，崇宏雄伟，殿前石庭平舒宽展，正中宝鼎香炉巍立，两侧白石宝塔高矗，更显广庭崇殿的庄严肃穆。"
+=======
+>>>>>>> 更新了南普陀寺
 #define kDabeidian_description        @"大悲殿是寺院的另一主殿，奉千手观音。中隔两段石阶近三十级。主殿呈八角形三重飞檐，中间藻井由斗拱层层迭架而成，造型巧妙，结构严密，俗称蜘蛛结网。"
 #define kWulaofeng_description        @"登临绝顶，吹拂着海风，俯瞰万物顺着山道往下，寺内素斋的特色素菜早已名扬天下"
 
@@ -258,10 +282,16 @@
 #define kZhaoxiaojie_bus   @"1路 3路 8路 10路 11路 12路 15路 20路 21路 22路 32路 45路 48路 520路 122路"
 #define kZhangsanfeng_bus  @"1路 3路 8路 10路 11路 12路 15路 20路 21路 22路 32路 45路 48路 520路 122路"
 ///////////////////////南普陀寺//////////////////////////////////
+<<<<<<< HEAD
 #define kTianwangdian_bus    @"1路 15路 21路 45路 841路 959路 45路、87路、1路、29路、47路"
 #define kDaxiongbaodian_bus  @"1路 15路 21路 45路 841路 959路 45路、87路、1路、29路、47路"
 #define kDabeidian_bus       @"1路 15路 21路 45路 841路 959路 45路、87路、1路、29路、47路"
 #define kWulaofeng_bus       @"1路 15路 21路 45路 841路 959路 45路、87路、1路、29路、47路"
+=======
+#define kTianwangdian_bus    @"1路 15路 21路 45路 841路 959路 45路 87路 1路 29路 47路"
+#define kDabeidian_bus       @"1路 15路 21路 45路 841路 959路 45路 87路 1路 29路 47路"
+#define kWulaofeng_bus       @"1路 15路 21路 45路 841路 959路 45路 87路 1路 29路 47路"
+>>>>>>> 更新了南普陀寺
 
 
 //////////////////////铁道文化公园//////////////////////////////
