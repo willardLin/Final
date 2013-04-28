@@ -71,6 +71,7 @@ CGRect busImageViewOriginalFrame;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         rect.size.height += SEGMENT_HEIGHT;
 >>>>>>> 添加了中山路
@@ -82,6 +83,14 @@ CGRect busImageViewOriginalFrame;
 >>>>>>> 有木有
         rect.origin.y -= SEGMENT_HEIGHT;
         _baseScrollView.frame = rect;
+=======
+        rect.size.height += SEGMENT_HEIGHT;
+        rect.origin.y -= SEGMENT_HEIGHT;
+        _baseScrollView.frame = rect;
+        CGRect rectImage = self.imagesScrollView.frame;
+        rectImage.origin.y -= SEGMENT_HEIGHT;
+        self.imagesScrollView.frame = rectImage;
+>>>>>>> 1111
     }
     //segment个数不能超过4个，负责排版混乱
     _scenicSubName = [_scenicSubName initWithItems:self.base.scenicSubName];
@@ -104,6 +113,7 @@ CGRect busImageViewOriginalFrame;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //图片
     _imageView1.image = [UIImage imageNamed:kRiguangyan_pic1];
     _imageView2.image = [UIImage imageNamed:kRiguangyan_pic2];
@@ -113,6 +123,8 @@ CGRect busImageViewOriginalFrame;
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
     switch (self.base.type)
     {
         case kGulangyuNameType :
@@ -133,9 +145,12 @@ CGRect busImageViewOriginalFrame;
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
         case kNanputuoNameType:
         {
             _imageView1.image = [UIImage imageNamed:kTianwangdian_pic1];
@@ -144,6 +159,7 @@ CGRect busImageViewOriginalFrame;
             break;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
@@ -151,6 +167,29 @@ CGRect busImageViewOriginalFrame;
 //            kXiamenDaxueNameType,
 //            kZhiwuyuanNameType,
 //            kNanhualuNameType,
+=======
+        case kXiamenDaxueNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kXiamendaxue_pic1];
+            _imageView2.image = [UIImage imageNamed:kXiamendaxue_pic2];
+            _imageView3.image = [UIImage imageNamed:kXiamendaxue_pic3];
+            break;
+        }
+        case kZhiwuyuanNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kZhiwuyuan_pic1];
+            _imageView2.image = [UIImage imageNamed:kZhiwuyuan_pic2];
+            _imageView3.image = [UIImage imageNamed:kZhiwuyuan_pic3];
+
+        }
+        case kNanhualuNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kNanhualu_pic1];
+            _imageView2.image = [UIImage imageNamed:kNanhualu_pic2];
+            _imageView3.image = [UIImage imageNamed:kNanhualu_pic3];
+
+        }
+>>>>>>> 1111
 //            kHuandaoluNameType,
 //            kGuanyinshanNameType,
 //            kTiedaoNameType,
@@ -165,11 +204,14 @@ CGRect busImageViewOriginalFrame;
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
 =======
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
     //改变下划线位置
     [self changeLabelHeightAndMoveImageViewByIndex:0];
     //地址
@@ -187,6 +229,7 @@ CGRect busImageViewOriginalFrame;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 更新了南普陀寺
     
@@ -201,23 +244,30 @@ CGRect busImageViewOriginalFrame;
 =======
 >>>>>>> 有木有
     
+=======
+    
+>>>>>>> 1111
     //设置委托
     _imagesScrollView.delegate = self;
     _baseScrollView.delegate = self;
     _baseScrollView.pagingEnabled = YES;
     //scrollview只能横向滑动或者竖向滑动
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 添加了中山路
 =======
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
     _basePageControl = [[UIPageControl alloc] init];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     _baseScrollView.alwaysBounceVertical = YES;
     _imagesScrollView.directionalLockEnabled = YES;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -283,6 +333,30 @@ CGRect busImageViewOriginalFrame;
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+    _currentScenicSubImage = 0;
+}
+
+//设置公交的界面
+- (void)setBusRectByIndex:(NSUInteger)index
+{
+    CGRect rect = _descriptionImageView.frame;
+    NSLog(@"original rect y%f",rect.origin.y);
+    rect.origin.y = rect.origin.y + BETWEEN_IMAGEVIEW_AND_LABEL_HEIGHT;
+    NSLog(@"after rect y%f",rect.origin.y);
+    _leftBusLabel.frame = CGRectMake(26, rect.origin.y, _leftBusLabel.frame.size.width, _leftBusLabel.frame.size.height);
+    
+    CGSize size = CGSizeMake(190, 700);
+    CGRect rightRect = CGRectZero;
+    CGSize labelSize = [[self.base.bus objectAtIndex:index] sizeWithFont:_rightBusLabel.font constrainedToSize:size lineBreakMode:NSLineBreakByCharWrapping];
+    [_rightBusLabel setFrame:CGRectMake(_rightBusLabel.frame.origin.x, rect.origin.y, labelSize.width, labelSize.height)];
+    rightRect = CGRectMake(_descriptionImageView.frame.origin.x, _leftBusLabel.frame.origin.y + labelSize.height + 8 , _busImageView.frame.size.width, _busImageView.frame.size.height);
+    _busImageView.frame = rightRect;
+    rightRect = CGRectZero;
+    _rightBusLabel.text = [self.base.bus objectAtIndex:index];
+}
+
+>>>>>>> 1111
 //分割线根据label高度来调整位置
 - (void)changeLabelHeightAndMoveImageViewByIndex:(NSUInteger)index
 {
@@ -312,6 +386,7 @@ CGRect busImageViewOriginalFrame;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [vc setValue:[self.base.imageDictionary objectForKey:_currentScenicSubImage]  forKey:@"imagesArray"];
 =======
         [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
@@ -322,6 +397,9 @@ CGRect busImageViewOriginalFrame;
 =======
         [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
 >>>>>>> 有木有
+=======
+        [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
+>>>>>>> 1111
     }
 }
 
@@ -355,6 +433,7 @@ CGRect busImageViewOriginalFrame;
 //        NSLog(@"%d",page);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +491,8 @@ CGRect busImageViewOriginalFrame;
 //    descriptionImageViewOriginalFrame = ;
 
 =======
+=======
+>>>>>>> 1111
 
 //子景点变换时做出的相应
 - (IBAction)scenicSubNameDidChanged:(id)sender
@@ -464,6 +545,7 @@ CGRect busImageViewOriginalFrame;
     [self changeLabelHeightAndMoveImageViewByIndex:index];
     [self setBusRectByIndex:index];
 //    descriptionImageViewOriginalFrame = ;
+<<<<<<< HEAD
 
 >>>>>>> 添加了中山路
 =======
@@ -527,5 +609,8 @@ CGRect busImageViewOriginalFrame;
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+
+>>>>>>> 1111
 }
 @end

@@ -41,6 +41,7 @@ typedef enum
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @property (nonatomic,strong) NSDictionary *imageDictionary;
 =======
 @property (nonatomic,strong) NSArray *imagesArray;
@@ -51,6 +52,9 @@ typedef enum
 =======
 @property (nonatomic,strong) NSArray *imagesArray;
 >>>>>>> 有木有
+=======
+@property (nonatomic,strong) NSArray *imagesArray;
+>>>>>>> 1111
 //价格
 @property (nonatomic,strong) NSArray *price;
 ////地址

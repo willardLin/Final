@@ -493,6 +493,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicDetailViewController.h"/>
             <relationships>
                 <relationship kind="action" name="scenicSubNameDidChanged:"/>
+<<<<<<< HEAD
                 <relationship kind="outlet" name="addressLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="baseScrollView" candidateClass="UIScrollView"/>
                 <relationship kind="outlet" name="busImageView" candidateClass="UIImageView"/>
@@ -509,10 +510,13 @@
                 <relationship kind="outlet" name="rightBusLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="scenicSubName" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="tapGesture" candidateClass="UITapGestureRecognizer"/>
+=======
+>>>>>>> 1111
             </relationships>
         </class>
         <class className="ScenicViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicViewController.h"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -531,6 +535,8 @@
                 <relationship kind="outlet" name="cellImage" candidateClass="UIImageView"/>
             </relationships>
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

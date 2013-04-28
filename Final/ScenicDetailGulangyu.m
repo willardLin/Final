@@ -47,6 +47,7 @@
         self.bus = [[NSArray alloc] initWithObjects:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     kRiguangyan_Bus,
                     kShuzhuanghuayuan_Bus,
                     kHaoyueyuan_Bus,
@@ -54,14 +55,19 @@
 =======
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
                     kRiguangyan_bus,
                     kShuzhuanghuayuan_bus,
                     kHaoyueyuan_bus,
                     kFengqin_bus, nil];
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
         dispatch_queue_t queue = dispatch_get_main_queue();
       
         dispatch_async(queue,^{
@@ -84,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             self.imageDictionary = [[NSDictionary alloc] initWithObjectsAndKeys:
                                     riguangyan,kRiguangyan,
                                     shuzhuanghuayuan,kShuzhuang,
@@ -98,6 +105,9 @@
 =======
             self.imagesArray = [[NSArray alloc] initWithObjects:riguangyan,shuzhuanghuayuan,haoyueyuan,fengqin, nil];
 >>>>>>> 有木有
+=======
+            self.imagesArray = [[NSArray alloc] initWithObjects:riguangyan,shuzhuanghuayuan,haoyueyuan,fengqin, nil];
+>>>>>>> 1111
         });
     }
     

@@ -86,9 +86,12 @@
 		5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */; };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
 		5CE558AA172D51E2008EC2D3 /* wulaofeng1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */; };
 		5CE558AB172D51E2008EC2D3 /* wulaofeng1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */; };
 		5CE558AC172D51E2008EC2D3 /* wulaofeng2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */; };
@@ -108,9 +111,24 @@
 		5CE558BA172D51E2008EC2D3 /* tianwangdian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A8172D51E2008EC2D3 /* tianwangdian3.jpg */; };
 		5CE558BB172D51E2008EC2D3 /* tianwangdian3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A9172D51E2008EC2D3 /* tianwangdian3@2x.jpg */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+		5CE558C4172D6028008EC2D3 /* xiamendaxue1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558C1172D6028008EC2D3 /* xiamendaxue1@2x.jpg */; };
+		5CE558C5172D6028008EC2D3 /* xiamendaxue2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558C2172D6028008EC2D3 /* xiamendaxue2@2x.jpg */; };
+		5CE558C6172D6028008EC2D3 /* xiamendaxue3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558C3172D6028008EC2D3 /* xiamendaxue3@2x.jpg */; };
+		5CE558CB172D6EB0008EC2D3 /* zhiwuyuan1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558C8172D6EB0008EC2D3 /* zhiwuyuan1@2x.jpg */; };
+		5CE558CC172D6EB0008EC2D3 /* zhiwuyuan2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558C9172D6EB0008EC2D3 /* zhiwuyuan2@2x.jpg */; };
+		5CE558CD172D6EB0008EC2D3 /* zhiwuyuan3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558CA172D6EB0008EC2D3 /* zhiwuyuan3@2x.jpg */; };
+		5CE558DC172D7628008EC2D3 /* nanhualu1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558D6172D7628008EC2D3 /* nanhualu1@2x.jpg */; };
+		5CE558DD172D7628008EC2D3 /* nanhualu1@2x副本.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558D7172D7628008EC2D3 /* nanhualu1@2x副本.jpg */; };
+		5CE558DE172D7628008EC2D3 /* nanhualu2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558D8172D7628008EC2D3 /* nanhualu2@2x.jpg */; };
+		5CE558DF172D7628008EC2D3 /* nanhualu2@2x副本.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558D9172D7628008EC2D3 /* nanhualu2@2x副本.jpg */; };
+		5CE558E0172D7628008EC2D3 /* nanhualu3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558DA172D7628008EC2D3 /* nanhualu3@2x.jpg */; };
+		5CE558E1172D7628008EC2D3 /* nanhualu3@2x副本.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558DB172D7628008EC2D3 /* nanhualu3@2x副本.jpg */; };
+>>>>>>> 1111
 		847761F51726301D009049B8 /* SDSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 847761F41726301D009049B8 /* SDSegmentedControl.m */; };
 		849658BA171BD1D500274698 /* ScenicDetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658B9171BD1D500274698 /* ScenicDetailImageViewController.m */; };
 		849658BE171BD56E00274698 /* APScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658BD171BD56E00274698 /* APScrollView.m */; };
@@ -238,9 +256,12 @@
 		5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailGulangyu.m; sourceTree = "<group>"; };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
 		5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng1.jpg; sourceTree = "<group>"; };
 		5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wulaofeng1@2x.jpg"; sourceTree = "<group>"; };
 		5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng2.jpg; sourceTree = "<group>"; };
@@ -260,9 +281,24 @@
 		5CE558A8172D51E2008EC2D3 /* tianwangdian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tianwangdian3.jpg; sourceTree = "<group>"; };
 		5CE558A9172D51E2008EC2D3 /* tianwangdian3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tianwangdian3@2x.jpg"; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+		5CE558C1172D6028008EC2D3 /* xiamendaxue1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xiamendaxue1@2x.jpg"; sourceTree = "<group>"; };
+		5CE558C2172D6028008EC2D3 /* xiamendaxue2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xiamendaxue2@2x.jpg"; sourceTree = "<group>"; };
+		5CE558C3172D6028008EC2D3 /* xiamendaxue3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xiamendaxue3@2x.jpg"; sourceTree = "<group>"; };
+		5CE558C8172D6EB0008EC2D3 /* zhiwuyuan1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhiwuyuan1@2x.jpg"; sourceTree = "<group>"; };
+		5CE558C9172D6EB0008EC2D3 /* zhiwuyuan2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhiwuyuan2@2x.jpg"; sourceTree = "<group>"; };
+		5CE558CA172D6EB0008EC2D3 /* zhiwuyuan3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhiwuyuan3@2x.jpg"; sourceTree = "<group>"; };
+		5CE558D6172D7628008EC2D3 /* nanhualu1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanhualu1@2x.jpg"; sourceTree = "<group>"; };
+		5CE558D7172D7628008EC2D3 /* nanhualu1@2x副本.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanhualu1@2x副本.jpg"; sourceTree = "<group>"; };
+		5CE558D8172D7628008EC2D3 /* nanhualu2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanhualu2@2x.jpg"; sourceTree = "<group>"; };
+		5CE558D9172D7628008EC2D3 /* nanhualu2@2x副本.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanhualu2@2x副本.jpg"; sourceTree = "<group>"; };
+		5CE558DA172D7628008EC2D3 /* nanhualu3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanhualu3@2x.jpg"; sourceTree = "<group>"; };
+		5CE558DB172D7628008EC2D3 /* nanhualu3@2x副本.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nanhualu3@2x副本.jpg"; sourceTree = "<group>"; };
+>>>>>>> 1111
 		847761F31726301D009049B8 /* SDSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSegmentedControl.h; sourceTree = "<group>"; };
 		847761F41726301D009049B8 /* SDSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSegmentedControl.m; sourceTree = "<group>"; };
 		849658B8171BD1D500274698 /* ScenicDetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailImageViewController.h; sourceTree = "<group>"; };
@@ -430,6 +466,7 @@
 		5C3D389E171B25A6004C9B34 /* 厦门大学 */ = {
 			isa = PBXGroup;
 			children = (
+				5CE558C0172D6028008EC2D3 /* 厦门大学 */,
 				5C3D38AB171B26F2004C9B34 /* ScenicDetailXiamenDaxue.h */,
 				5C3D38AC171B26F2004C9B34 /* ScenicDetailXiamenDaxue.m */,
 			);
@@ -439,6 +476,7 @@
 		5C3D389F171B25AC004C9B34 /* 厦门园林植物园 */ = {
 			isa = PBXGroup;
 			children = (
+				5CE558C7172D6EB0008EC2D3 /* 厦门园林植物园 */,
 				5C3D38AE171B2719004C9B34 /* ScenicDetailZhiwuyuan.h */,
 				5C3D38AF171B2719004C9B34 /* ScenicDetailZhiwuyuan.m */,
 			);
@@ -448,6 +486,7 @@
 		5C3D38A0171B25F4004C9B34 /* 南华路 */ = {
 			isa = PBXGroup;
 			children = (
+				5CE558D5172D7628008EC2D3 /* 南华路 */,
 				5C3D38B1171B2725004C9B34 /* ScenicDetailNanhualu.h */,
 				5C3D38B2171B2725004C9B34 /* ScenicDetailNanhualu.m */,
 			);
@@ -548,9 +587,12 @@
 		};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
 		5CE55895172D51E2008EC2D3 /* 五老峰 */ = {
 			isa = PBXGroup;
 			children = (
@@ -591,6 +633,7 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
@@ -604,6 +647,79 @@
 				5C69CCC11729656900811278 /* riguangyan2@2x.jpg */,
 				5C69CCC21729656900811278 /* riguangyan3@2x.jpg */,
 			);
+=======
+		5CE558BC172D5CC6008EC2D3 /* 住宿 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "住宿";
+			sourceTree = "<group>";
+		};
+		5CE558BD172D5CF0008EC2D3 /* 美食 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "美食";
+			sourceTree = "<group>";
+		};
+		5CE558BE172D5CF5008EC2D3 /* 购物 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "购物";
+			sourceTree = "<group>";
+		};
+		5CE558BF172D5CFA008EC2D3 /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "更多";
+			sourceTree = "<group>";
+		};
+		5CE558C0172D6028008EC2D3 /* 厦门大学 */ = {
+			isa = PBXGroup;
+			children = (
+				5CE558C1172D6028008EC2D3 /* xiamendaxue1@2x.jpg */,
+				5CE558C2172D6028008EC2D3 /* xiamendaxue2@2x.jpg */,
+				5CE558C3172D6028008EC2D3 /* xiamendaxue3@2x.jpg */,
+			);
+			path = "厦门大学";
+			sourceTree = "<group>";
+		};
+		5CE558C7172D6EB0008EC2D3 /* 厦门园林植物园 */ = {
+			isa = PBXGroup;
+			children = (
+				5CE558C8172D6EB0008EC2D3 /* zhiwuyuan1@2x.jpg */,
+				5CE558C9172D6EB0008EC2D3 /* zhiwuyuan2@2x.jpg */,
+				5CE558CA172D6EB0008EC2D3 /* zhiwuyuan3@2x.jpg */,
+			);
+			path = "厦门园林植物园";
+			sourceTree = "<group>";
+		};
+		5CE558D5172D7628008EC2D3 /* 南华路 */ = {
+			isa = PBXGroup;
+			children = (
+				5CE558D6172D7628008EC2D3 /* nanhualu1@2x.jpg */,
+				5CE558D7172D7628008EC2D3 /* nanhualu1@2x副本.jpg */,
+				5CE558D8172D7628008EC2D3 /* nanhualu2@2x.jpg */,
+				5CE558D9172D7628008EC2D3 /* nanhualu2@2x副本.jpg */,
+				5CE558DA172D7628008EC2D3 /* nanhualu3@2x.jpg */,
+				5CE558DB172D7628008EC2D3 /* nanhualu3@2x副本.jpg */,
+			);
+			path = "南华路";
+			sourceTree = "<group>";
+		};
+		843F211A171E3516009E44DD /* 日光岩 */ = {
+			isa = PBXGroup;
+			children = (
+				5C69CCBD1729656900811278 /* riguangyan1.jpg */,
+				5C69CCBE1729656900811278 /* riguangyan2.jpg */,
+				5C69CCBF1729656900811278 /* riguangyan3.jpg */,
+				5C69CCC01729656900811278 /* riguangyan1@2x.jpg */,
+				5C69CCC11729656900811278 /* riguangyan2@2x.jpg */,
+				5C69CCC21729656900811278 /* riguangyan3@2x.jpg */,
+			);
+>>>>>>> 1111
 			name = "日光岩";
 			sourceTree = "<group>";
 		};
@@ -745,6 +861,10 @@
 				84AC7E4D171D578C0099F820 /* burberry@2x.png */,
 				5C3D386E171B21A9004C9B34 /* 景点图片 */,
 				84AA7A8E1717E6F10006092F /* 景点子类 */,
+				5CE558BF172D5CFA008EC2D3 /* 更多 */,
+				5CE558BE172D5CF5008EC2D3 /* 购物 */,
+				5CE558BD172D5CF0008EC2D3 /* 美食 */,
+				5CE558BC172D5CC6008EC2D3 /* 住宿 */,
 				5CCB5BB217185C6800654214 /* ScenicDetailBase.h */,
 				5CCB5BB317185C6800654214 /* ScenicDetailBase.m */,
 				84AA7A8F1717F6740006092F /* ScenicDetailViewController.h */,
@@ -891,11 +1011,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
 				5C18DCDB172C112100C916B3 /* zhangsanfeng2.jpg in Resources */,
 				5C18DCDC172C112100C916B3 /* zhangsanfeng2@2x.jpg in Resources */,
 				5C18DCDD172C112100C916B3 /* zhangsanfeng1.jpg in Resources */,
@@ -916,10 +1039,13 @@
 				5C18DCEC172C112100C916B3 /* taiwanxiaochi3@2x.jpg in Resources */,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
 =======
 =======
 >>>>>>> 有木有
+=======
+>>>>>>> 1111
 				5CE558AA172D51E2008EC2D3 /* wulaofeng1.jpg in Resources */,
 				5CE558AB172D51E2008EC2D3 /* wulaofeng1@2x.jpg in Resources */,
 				5CE558AC172D51E2008EC2D3 /* wulaofeng2.jpg in Resources */,
@@ -939,9 +1065,24 @@
 				5CE558BA172D51E2008EC2D3 /* tianwangdian3.jpg in Resources */,
 				5CE558BB172D51E2008EC2D3 /* tianwangdian3@2x.jpg in Resources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
 =======
 >>>>>>> 有木有
+=======
+				5CE558C4172D6028008EC2D3 /* xiamendaxue1@2x.jpg in Resources */,
+				5CE558C5172D6028008EC2D3 /* xiamendaxue2@2x.jpg in Resources */,
+				5CE558C6172D6028008EC2D3 /* xiamendaxue3@2x.jpg in Resources */,
+				5CE558CB172D6EB0008EC2D3 /* zhiwuyuan1@2x.jpg in Resources */,
+				5CE558CC172D6EB0008EC2D3 /* zhiwuyuan2@2x.jpg in Resources */,
+				5CE558CD172D6EB0008EC2D3 /* zhiwuyuan3@2x.jpg in Resources */,
+				5CE558DC172D7628008EC2D3 /* nanhualu1@2x.jpg in Resources */,
+				5CE558DD172D7628008EC2D3 /* nanhualu1@2x副本.jpg in Resources */,
+				5CE558DE172D7628008EC2D3 /* nanhualu2@2x.jpg in Resources */,
+				5CE558DF172D7628008EC2D3 /* nanhualu2@2x副本.jpg in Resources */,
+				5CE558E0172D7628008EC2D3 /* nanhualu3@2x.jpg in Resources */,
+				5CE558E1172D7628008EC2D3 /* nanhualu3@2x副本.jpg in Resources */,
+>>>>>>> 1111
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
