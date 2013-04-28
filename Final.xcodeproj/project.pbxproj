@@ -85,7 +85,10 @@
 		5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB317185C6800654214 /* ScenicDetailBase.m */; };
 		5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 有木有
 		5CE558AA172D51E2008EC2D3 /* wulaofeng1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */; };
 		5CE558AB172D51E2008EC2D3 /* wulaofeng1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */; };
 		5CE558AC172D51E2008EC2D3 /* wulaofeng2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */; };
@@ -104,7 +107,10 @@
 		5CE558B9172D51E2008EC2D3 /* tianwangdian2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A7172D51E2008EC2D3 /* tianwangdian2@2x.jpg */; };
 		5CE558BA172D51E2008EC2D3 /* tianwangdian3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A8172D51E2008EC2D3 /* tianwangdian3.jpg */; };
 		5CE558BB172D51E2008EC2D3 /* tianwangdian3@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE558A9172D51E2008EC2D3 /* tianwangdian3@2x.jpg */; };
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
 		847761F51726301D009049B8 /* SDSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 847761F41726301D009049B8 /* SDSegmentedControl.m */; };
 		849658BA171BD1D500274698 /* ScenicDetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658B9171BD1D500274698 /* ScenicDetailImageViewController.m */; };
 		849658BE171BD56E00274698 /* APScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849658BD171BD56E00274698 /* APScrollView.m */; };
@@ -231,7 +237,10 @@
 		5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailGulangyu.h; sourceTree = "<group>"; };
 		5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailGulangyu.m; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 有木有
 		5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng1.jpg; sourceTree = "<group>"; };
 		5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wulaofeng1@2x.jpg"; sourceTree = "<group>"; };
 		5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng2.jpg; sourceTree = "<group>"; };
@@ -250,7 +259,10 @@
 		5CE558A7172D51E2008EC2D3 /* tianwangdian2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tianwangdian2@2x.jpg"; sourceTree = "<group>"; };
 		5CE558A8172D51E2008EC2D3 /* tianwangdian3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tianwangdian3.jpg; sourceTree = "<group>"; };
 		5CE558A9172D51E2008EC2D3 /* tianwangdian3@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tianwangdian3@2x.jpg"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
 		847761F31726301D009049B8 /* SDSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDSegmentedControl.h; sourceTree = "<group>"; };
 		847761F41726301D009049B8 /* SDSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDSegmentedControl.m; sourceTree = "<group>"; };
 		849658B8171BD1D500274698 /* ScenicDetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailImageViewController.h; sourceTree = "<group>"; };
@@ -535,7 +547,10 @@
 			sourceTree = "<group>";
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 有木有
 		5CE55895172D51E2008EC2D3 /* 五老峰 */ = {
 			isa = PBXGroup;
 			children = (
@@ -575,7 +590,10 @@
 			path = "天王殿";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
 		843F211A171E3516009E44DD /* 日光岩 */ = {
 			isa = PBXGroup;
 			children = (
@@ -872,9 +890,12 @@
 				5C69CCE1172969F700811278 /* fengqin1@2x.jpg in Resources */,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
 				5C18DCDB172C112100C916B3 /* zhangsanfeng2.jpg in Resources */,
 				5C18DCDC172C112100C916B3 /* zhangsanfeng2@2x.jpg in Resources */,
 				5C18DCDD172C112100C916B3 /* zhangsanfeng1.jpg in Resources */,
@@ -894,8 +915,11 @@
 				5C18DCEB172C112100C916B3 /* taiwanxiaochi3.jpg in Resources */,
 				5C18DCEC172C112100C916B3 /* taiwanxiaochi3@2x.jpg in Resources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
 =======
+=======
+>>>>>>> 有木有
 				5CE558AA172D51E2008EC2D3 /* wulaofeng1.jpg in Resources */,
 				5CE558AB172D51E2008EC2D3 /* wulaofeng1@2x.jpg in Resources */,
 				5CE558AC172D51E2008EC2D3 /* wulaofeng2.jpg in Resources */,
@@ -914,7 +938,10 @@
 				5CE558B9172D51E2008EC2D3 /* tianwangdian2@2x.jpg in Resources */,
 				5CE558BA172D51E2008EC2D3 /* tianwangdian3.jpg in Resources */,
 				5CE558BB172D51E2008EC2D3 /* tianwangdian3@2x.jpg in Resources */,
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

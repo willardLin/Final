@@ -70,12 +70,16 @@ CGRect busImageViewOriginalFrame;
         CGRect rect = _baseScrollView.frame;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         rect.size.height += SEGMENT_HEIGHT;
 >>>>>>> 添加了中山路
 =======
         rect.size.height += SEGMENT_HEIGHT;
 >>>>>>> 更新了南普陀寺
+=======
+        rect.size.height += SEGMENT_HEIGHT;
+>>>>>>> 有木有
         rect.origin.y -= SEGMENT_HEIGHT;
         _baseScrollView.frame = rect;
     }
@@ -99,6 +103,7 @@ CGRect busImageViewOriginalFrame;
     _priceLabel.text    = [self.base.price objectAtIndex:0];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //图片
     _imageView1.image = [UIImage imageNamed:kRiguangyan_pic1];
     _imageView2.image = [UIImage imageNamed:kRiguangyan_pic2];
@@ -106,6 +111,8 @@ CGRect busImageViewOriginalFrame;
 =======
 =======
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
     switch (self.base.type)
     {
         case kGulangyuNameType :
@@ -125,7 +132,10 @@ CGRect busImageViewOriginalFrame;
 
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 有木有
         case kNanputuoNameType:
         {
             _imageView1.image = [UIImage imageNamed:kTianwangdian_pic1];
@@ -133,7 +143,10 @@ CGRect busImageViewOriginalFrame;
             _imageView3.image = [UIImage imageNamed:kTianwangdian_pic3];
             break;
         }
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
 //            kNanputuoNameType,
 //            kXiamenDaxueNameType,
 //            kZhiwuyuanNameType,
@@ -151,9 +164,12 @@ CGRect busImageViewOriginalFrame;
             break;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
 =======
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
     //改变下划线位置
     [self changeLabelHeightAndMoveImageViewByIndex:0];
     //地址
@@ -170,6 +186,7 @@ CGRect busImageViewOriginalFrame;
     [_baseScrollView bringSubviewToFront:_pageControl];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 更新了南普陀寺
     
@@ -181,6 +198,8 @@ CGRect busImageViewOriginalFrame;
     
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 有木有
     
     //设置委托
     _imagesScrollView.delegate = self;
@@ -188,14 +207,18 @@ CGRect busImageViewOriginalFrame;
     _baseScrollView.pagingEnabled = YES;
     //scrollview只能横向滑动或者竖向滑动
     
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
 =======
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
     _basePageControl = [[UIPageControl alloc] init];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     _baseScrollView.alwaysBounceVertical = YES;
     _imagesScrollView.directionalLockEnabled = YES;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     _currentScenicSubImage = kRiguangyan;
@@ -229,6 +252,11 @@ CGRect busImageViewOriginalFrame;
 }
 
 >>>>>>> 更新了南普陀寺
+=======
+    _currentScenicSubImage = 0;
+}
+
+>>>>>>> 有木有
 //设置公交的界面
 - (void)setBusRectByIndex:(NSUInteger)index
 {
@@ -249,9 +277,12 @@ CGRect busImageViewOriginalFrame;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 添加了中山路
 =======
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
 //分割线根据label高度来调整位置
 - (void)changeLabelHeightAndMoveImageViewByIndex:(NSUInteger)index
 {
@@ -280,6 +311,7 @@ CGRect busImageViewOriginalFrame;
         [vc setValue:_pageNumber forKey:@"pageNumber"];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         [vc setValue:[self.base.imageDictionary objectForKey:_currentScenicSubImage]  forKey:@"imagesArray"];
 =======
         [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
@@ -287,6 +319,9 @@ CGRect busImageViewOriginalFrame;
 =======
         [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
 >>>>>>> 更新了南普陀寺
+=======
+        [vc setValue:[self.base.imagesArray objectAtIndex:[_currentScenicSubImage intValue]]  forKey:@"imagesArray"];
+>>>>>>> 有木有
     }
 }
 
@@ -320,6 +355,7 @@ CGRect busImageViewOriginalFrame;
 //        NSLog(@"%d",page);
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -432,6 +468,9 @@ CGRect busImageViewOriginalFrame;
 >>>>>>> 添加了中山路
 =======
 
+=======
+
+>>>>>>> 有木有
 //子景点变换时做出的相应
 - (IBAction)scenicSubNameDidChanged:(id)sender
 {
@@ -484,6 +523,9 @@ CGRect busImageViewOriginalFrame;
     [self setBusRectByIndex:index];
 //    descriptionImageViewOriginalFrame = ;
 
+<<<<<<< HEAD
 >>>>>>> 更新了南普陀寺
+=======
+>>>>>>> 有木有
 }
 @end

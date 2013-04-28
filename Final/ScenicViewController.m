@@ -74,12 +74,16 @@
     cell.textLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_Name] objectAtIndex:[indexPath row]];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     cell.detailTextLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_detail] objectAtIndex:[indexPath row]];
 >>>>>>> 添加了中山路
 =======
     cell.detailTextLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_detail] objectAtIndex:[indexPath row]];
 >>>>>>> 更新了南普陀寺
+=======
+    cell.detailTextLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_detail] objectAtIndex:[indexPath row]];
+>>>>>>> 有木有
     return cell;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

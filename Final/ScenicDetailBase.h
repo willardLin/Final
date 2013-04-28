@@ -40,6 +40,7 @@ typedef enum
 //景点图片
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 @property (nonatomic,strong) NSDictionary *imageDictionary;
 =======
 @property (nonatomic,strong) NSArray *imagesArray;
@@ -47,6 +48,9 @@ typedef enum
 =======
 @property (nonatomic,strong) NSArray *imagesArray;
 >>>>>>> 更新了南普陀寺
+=======
+@property (nonatomic,strong) NSArray *imagesArray;
+>>>>>>> 有木有
 //价格
 @property (nonatomic,strong) NSArray *price;
 ////地址

@@ -515,6 +515,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScenicViewController.h"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <relationships>
                 <relationship kind="outlet" name="cellImage" candidateClass="UIImageView"/>
@@ -525,6 +526,11 @@
                 <relationship kind="outlet" name="cellImage" candidateClass="UIImageView"/>
             </relationships>
 >>>>>>> 更新了南普陀寺
+=======
+            <relationships>
+                <relationship kind="outlet" name="cellImage" candidateClass="UIImageView"/>
+            </relationships>
+>>>>>>> 有木有
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
