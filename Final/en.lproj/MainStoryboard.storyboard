@@ -306,21 +306,105 @@
             </objects>
             <point key="canvasLocation" x="-1475" y="1922"/>
         </scene>
-        <!--View Controller - 住宿-->
-        <scene sceneID="6iw-aw-eK2">
+        <!--Hotel View Controller - 住宿-->
+        <scene sceneID="Dcq-Kx-eLg">
             <objects>
-                <viewController id="zgU-aa-98R" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5qG-9P-G2w">
+                <tableViewController id="CWK-SL-Ed8" customClass="HotelViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="304" sectionHeaderHeight="22" sectionFooterHeight="22" id="bvK-At-Nko">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="住宿" id="EFc-mH-PIk"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z6e-fz-lF2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" restorationIdentifier="CustomIdentifier" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomIdentifier" rowHeight="304" id="41S-GN-Vr0" customClass="CustomTableViewCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="304"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="303"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G1Z-Zx-qkc">
+                                            <rect key="frame" x="20" y="5" width="280" height="28"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="dV3-GY-jaC">
+                                            <rect key="frame" x="20" y="36" width="280" height="173"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="联系方式：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b3V-Cx-kgh">
+                                            <rect key="frame" x="20" y="221" width="76" height="19"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="6RX-0m-DgH">
+                                            <rect key="frame" x="104" y="221" width="208" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <state key="normal">
+                                                <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <state key="highlighted">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="phoneCalled:" destination="41S-GN-Vr0" eventType="touchUpInside" id="9PX-Qc-ZVA"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="价格：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hKb-ei-yEv">
+                                            <rect key="frame" x="50" y="248" width="46" height="19"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4o3-sz-mCG">
+                                            <rect key="frame" x="104" y="248" width="208" height="19"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="地址：" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6eJ-ea-e0B">
+                                            <rect key="frame" x="50" y="277" width="46" height="19"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BOC-bk-GK3">
+                                            <rect key="frame" x="104" y="277" width="208" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="address" destination="BOC-bk-GK3" id="7pn-FX-gSb"/>
+                                    <outlet property="bigTitle" destination="G1Z-Zx-qkc" id="nma-I9-w0k"/>
+                                    <outlet property="imageViewHotel" destination="dV3-GY-jaC" id="bXe-CW-bDu"/>
+                                    <outlet property="phoneButton" destination="6RX-0m-DgH" id="JqJ-AL-4LL"/>
+                                    <outlet property="price" destination="4o3-sz-mCG" id="9CM-Kf-q9f"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="CWK-SL-Ed8" id="BUC-sn-rpa"/>
+                            <outlet property="delegate" destination="CWK-SL-Ed8" id="82E-3J-WKW"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="住宿" id="HIj-I7-X4F"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ddm-cz-P2m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1461" y="190"/>
+            <point key="canvasLocation" x="-1470" y="219"/>
         </scene>
         <!--Scenic Detail Image View Controller-->
         <scene sceneID="gau-te-wI7">
@@ -406,12 +490,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="zgU-aa-98R" kind="relationship" relationship="rootViewController" id="t6S-Pi-2A6"/>
+                        <segue destination="CWK-SL-Ed8" kind="relationship" relationship="rootViewController" id="MzQ-Nm-gdj"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBz-fK-bNC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2009" y="190"/>
+            <point key="canvasLocation" x="-2009" y="219"/>
         </scene>
         <!--Navigation Controller - 美食-->
         <scene sceneID="ZUt-1g-fCn">
@@ -455,7 +539,7 @@
         <scene sceneID="Ac3-E0-XD2">
             <objects>
                 <navigationController id="h7H-vT-gw4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="更多" id="4M8-XF-r1j"/>
+                    <tabBarItem key="tabBarItem" title="更多" image="More.png" id="4M8-XF-r1j" customClass="CustomTabBarItem"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pgK-Cm-nO5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -472,6 +556,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="More.png" width="30" height="30"/>
         <image name="cart.png" width="30" height="30"/>
         <image name="gallery.png" width="30" height="30"/>
         <image name="hotel.png" width="53" height="30"/>
@@ -479,6 +564,23 @@
         <image name="zhaoxiaojie2.jpg" width="320" height="480"/>
     </resources>
     <classes>
+        <class className="CustomTabBarItem" superclassName="UITabBarItem">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomTabBarItem.h"/>
+        </class>
+        <class className="CustomTableViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomTableViewCell.h"/>
+            <relationships>
+                <relationship kind="action" name="phoneCalled:"/>
+                <relationship kind="outlet" name="address" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="bigTitle" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageViewHotel" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="phoneButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="price" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="HotelViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HotelViewController.h"/>
+        </class>
         <class className="SDSegmentedControl" superclassName="UISegmentedControl">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SDSegmentedControl.h"/>
         </class>

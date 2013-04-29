@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>hotelName</key>
+	<array>
+		<string>海景千禧大酒店</string>
+		<string>那宅酒店</string>
+		<string>林氏府公馆酒店</string>
+		<string>李家庄咖啡休闲旅馆</string>
+		<string>海角八号家庭旅馆</string>
+		<string>星晴海客栈</string>
+		<string>听涛小筑</string>
+		<string>悦蓝湾258客栈</string>
+	</array>
+	<key>phoneNumber</key>
+	<array>
+		<string>0592-2023333</string>
+		<string>0592-2088799</string>
+		<string>0592-7398888</string>
+		<string>0592-2565008</string>
+		<string>0592-2345103</string>
+		<string>0592-5915830</string>
+		<string>0592-6673999</string>
+		<string>0592-2516089</string>
+	</array>
+	<key>price</key>
+	<array>
+		<string>660元起</string>
+		<string>1000元起</string>
+		<string>1000元起</string>
+		<string>400元起</string>
+		<string>278元起</string>
+		<string>101元</string>
+		<string>161元起</string>
+		<string>200-300元</string>
+	</array>
+	<key>address</key>
+	<array>
+		<string>思明区镇海路12-8号(近思明路)</string>
+		<string>鼓浪屿安海路38号</string>
+		<string>鼓浪屿鹿礁路11-19号</string>
+		<string>鼓浪屿李家庄漳州路38-40号</string>
+		<string>鼓浪屿安海路32号</string>
+		<string>思明区环岛路曾厝垵31号</string>
+		<string>鼓浪屿漳州路3号</string>
+		<string>思明区环岛路曾厝垵258号</string>
+	</array>
+	<key>picture</key>
+	<array>
+		<string>qianxi.jpg</string>
+		<string>nazhai.jpg</string>
+		<string>linshi.jpg</string>
+		<string>lijiazhuang.jpg</string>
+		<string>haijiao.jpg</string>
+		<string>xingqinghai.jpg</string>
+		<string>tingtao.jpg</string>
+		<string>yuelanwan.jpg</string>
+	</array>
+</dict>
+</plist>

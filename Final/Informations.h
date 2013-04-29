@@ -9,7 +9,7 @@
 //获取风景点的信息
 #import <Foundation/Foundation.h>
 
-@interface ScenicInformations : NSObject
+@interface Informations : NSObject
 @property (nonatomic,strong) NSDictionary *informationsDictionary;
 @property (nonatomic,strong) NSArray      *informationsArray;
 - (id) initWithPlist:(NSString *)plist;

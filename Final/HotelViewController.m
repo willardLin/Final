@@ -1,25 +1,20 @@
 //
-//  ScenicViewController.m
+//  HotelViewController.m
 //  Final
 //
-//  Created by 林志利 on 13-4-1.
+//  Created by Willard Lin on 13-4-29.
 //  Copyright (c) 2013年 林志利. All rights reserved.
 //
 
-#import "ScenicViewController.h"
+#import "HotelViewController.h"
+#import "CustomTableViewCell.h"
 #import "FileName.h"
-#import "ScenicDetailBase.h"
-#import "ScenicDetailViewController.h"
-@interface ScenicViewController ()
+#import "Informations.h"
+@interface HotelViewController ()
 
 @end
-#define CELL_HEIGHT 70
 
-@implementation ScenicViewController
-@synthesize scenic = _scenic;
-@synthesize scenicArray = _scenicArray;
-@synthesize scenicDictionary = _scenicDictionary;
-@synthesize base = _base;
+@implementation HotelViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,13 +27,13 @@
 
 - (void)viewDidLoad
 {
-    //获取景点类
-    _scenic = [[Informations alloc] initWithPlist:kScenicInformations];
+    //获取酒店类
+    _hotel = [[Informations alloc] initWithPlist:kHotelInformations];
     //获取plist中的各项内容
-    _scenicDictionary = _scenic.informationsDictionary;
+    _hotelDictionary = _hotel.informationsDictionary;
+    _hotelCount = [[_hotelDictionary objectForKey:kHotelInformations_hotelName] count];
     //输出景点名称
-//    NSLog(@"%@",[_scenicDictionary objectForKey:kScenicInformations_Name]);
-    _base = [ScenicDetailBase classFromType:kGulangyuNameType];
+    //    NSLog(@"%@",[_hotelDictionary objectForKey:khotelInformations_Name]);
     [super viewDidLoad];
 
     // Uncomment the following line to preserve selection between presentations.
@@ -63,24 +58,24 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    //有几个景点名称，就返回多少行
-    return [[_scenicDictionary objectForKey:kScenicInformations_Name] count];
+    return _hotelCount;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    //返回景点名称
-    cell.imageView.image = [UIImage imageNamed:[[_scenicDictionary objectForKey:kScenicInformations_picture] objectAtIndex:[indexPath row]]];
-    cell.textLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_Name] objectAtIndex:[indexPath row]];
-    cell.detailTextLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_detail] objectAtIndex:[indexPath row]];
+    static NSString *CellIdentifier = @"CustomIdentifier";
+    CustomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    cell.bigTitle.text = [[_hotelDictionary objectForKey:kHotelInformations_hotelName] objectAtIndex:[indexPath row]];
+    [cell.phoneButton setTitle:[[_hotelDictionary objectForKey:kHotelInformations_phoneNumber] objectAtIndex:[indexPath row]] forState:UIControlStateNormal];
+    cell.price.text = [[_hotelDictionary objectForKey:kHotelInformations_price] objectAtIndex:[indexPath row]];
+    cell.address.text = [[_hotelDictionary objectForKey:kHotelInformations_address] objectAtIndex:[indexPath row]];
+    cell.imageViewHotel.image = [UIImage imageNamed:[[_hotelDictionary objectForKey:kHotelInformations_picture] objectAtIndex:[indexPath row]]];
+//    cell.bigTitle.text = @"你全家";
+        // Configure the cell...
+    
     return cell;
 }
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return CELL_HEIGHT;
-}
+
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
@@ -122,26 +117,15 @@
 
 #pragma mark - Table view delegate
 
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    // Navigation logic may go here. Create and push another view controller.
-//    /*
-//     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-//     // ...
-//     // Pass the selected object to the new view controller.
-//     [self.navigationController pushViewController:detailViewController animated:YES];
-//     */
-//    [self performSegueWithIdentifier:@"DetailInformation" sender:self];
-//}
-
-- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if ([segue.identifier isEqualToString:@"DetailInformation"]) {
-        _base = [ScenicDetailBase classFromType:[[self.tableView indexPathForSelectedRow] row]];
-        ScenicDetailViewController *vc = segue.destinationViewController;
-        [vc setValue:self.base forKey:@"base"];
-        [vc setHidesBottomBarWhenPushed:YES];
-    }
+    // Navigation logic may go here. Create and push another view controller.
+    /*
+     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     // ...
+     // Pass the selected object to the new view controller.
+     [self.navigationController pushViewController:detailViewController animated:YES];
+     */
 }
 
 @end

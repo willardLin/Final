@@ -6,9 +6,8 @@
 //  Copyright (c) 2013年 林志利. All rights reserved.
 //
 
-#import "ScenicInformations.h"
-#import "FileName.h"
-@implementation ScenicInformations
+#import "Informations.h"
+@implementation Informations
 @synthesize informationsArray = _informationsArray;
 @synthesize informationsDictionary = _informationsDictionary;
 
