@@ -15,7 +15,7 @@
     {
         
         self.scenicName = kHuandaolu;
-        self.title = kHuandaolu;;
+        self.title = kHuandaolu;
         self.openTime = [[NSArray alloc] initWithObjects:
                          kHuandaolu_openTime,
                          nil];

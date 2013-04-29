@@ -13,6 +13,7 @@
 @interface ScenicViewController ()
 
 @end
+#define CELL_HEIGHT 70
 
 @implementation ScenicViewController
 @synthesize scenic = _scenic;
@@ -71,13 +72,14 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     //返回景点名称
+    cell.imageView.image = [UIImage imageNamed:[[_scenicDictionary objectForKey:kScenicInformations_picture] objectAtIndex:[indexPath row]]];
     cell.textLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_Name] objectAtIndex:[indexPath row]];
     cell.detailTextLabel.text = [[_scenicDictionary objectForKey:kScenicInformations_detail] objectAtIndex:[indexPath row]];
     return cell;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 60.0f;
+    return CELL_HEIGHT;
 }
 /*
 // Override to support conditional editing of the table view.

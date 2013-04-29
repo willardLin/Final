@@ -32,9 +32,20 @@
 		<string>靠海而建，晚上散步的好去处</string>
 		<string>嘉庚风格，陈嘉庚亲自指导</string>
 	</array>
-	<key>pictures</key>
+	<key>picture</key>
 	<array>
-		<string></string>
+		<string>gulangyu.jpg</string>
+		<string>zhongshanlu.jpg</string>
+		<string>nanputuo.jpg</string>
+		<string>xiamendaxue.jpg</string>
+		<string>zhiwuyuan.jpg</string>
+		<string>nanhualu.jpg</string>
+		<string>huandaolu.jpg</string>
+		<string>guanyinshan.jpg</string>
+		<string>tiedao.jpg</string>
+		<string>chenjiageng.jpg</string>
+		<string>haiwan.jpg</string>
+		<string>jimeixuecun.jpg</string>
 	</array>
 </dict>
 </plist>

@@ -18,7 +18,7 @@
 ////////////////////////////////////////////////////////
 //plist文件中的key值
 #define kScenicInformations_Name   @"name"
-#define kScenicInformations_grade  @"grade"
+#define kScenicInformations_picture  @"picture"
 #define kScenicInformations_detail @"detail"
 ////////////////////////////////////////////////////////
 

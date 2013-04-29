@@ -10,7 +10,7 @@
 #import "ScenicViewController.h"
 #import "ScenicDetailImageViewController.h"
 #define SCREEN_WIDTH 320
-#define BASE_SCROLLVIEW_HEIGHT 550
+#define BASE_SCROLLVIEW_HEIGHT 580
 
 #define IMAGE_WIDTH   280
 #define IMAGE_HEIGHT  148
@@ -23,6 +23,7 @@
 #define LABEL_MAX_WORDS_NUMBER 14
 #define BETWEEN_IMAGEVIEW_AND_LABEL_HEIGHT 8
 #define SEGMENT_HEIGHT 44
+
 @interface ScenicDetailViewController ()
 @end
 
@@ -157,14 +158,37 @@ CGRect busImageViewOriginalFrame;
             break;
             
         }
+        case kTiedaoNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kTiedao_pic1];
+            _imageView2.image = [UIImage imageNamed:kTiedao_pic2];
+            _imageView3.image = [UIImage imageNamed:kTiedao_pic3];
+            break;
 
-//            kTiedaoNameType,
-//            kChenjiagengNameType,
-//            kHaiwanNameType,
-//        kJimeiNameType:
-//            <#statements#>
-//            break;
-            
+        }
+        case kChenjiagengNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kChenjiageng_pic1];
+            _imageView2.image = [UIImage imageNamed:kChenjiageng_pic2];
+            _imageView3.image = [UIImage imageNamed:kChenjiageng_pic3];
+            break;            
+        }
+        case kHaiwanNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kHaiwan_pic1];
+            _imageView2.image = [UIImage imageNamed:kHaiwan_pic2];
+            _imageView3.image = [UIImage imageNamed:kHaiwan_pic3];
+            break;
+
+        }
+        case kJimeiNameType:
+        {
+            _imageView1.image = [UIImage imageNamed:kJimei_pic1];
+            _imageView2.image = [UIImage imageNamed:kJimei_pic2];
+            _imageView3.image = [UIImage imageNamed:kJimei_pic3];
+            break;
+
+        }
         default:
             break;
     }
