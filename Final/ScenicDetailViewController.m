@@ -60,7 +60,7 @@ CGRect busImageViewOriginalFrame;
     _imagesScrollView.showsVerticalScrollIndicator   = NO;
 
     
-    NSLog(@"selectedSegmentIndex:%i",_scenicSubName.selectedSegmentIndex);
+//    NSLog(@"selectedSegmentIndex:%i",_scenicSubName.selectedSegmentIndex);
 }
 
 - (void)viewDidLoad
@@ -225,9 +225,9 @@ CGRect busImageViewOriginalFrame;
 - (void)setBusRectByIndex:(NSUInteger)index
 {
     CGRect rect = _descriptionImageView.frame;
-    NSLog(@"original rect y%f",rect.origin.y);
+//    NSLog(@"original rect y%f",rect.origin.y);
     rect.origin.y = rect.origin.y + BETWEEN_IMAGEVIEW_AND_LABEL_HEIGHT;
-    NSLog(@"after rect y%f",rect.origin.y);
+//    NSLog(@"after rect y%f",rect.origin.y);
     _leftBusLabel.frame = CGRectMake(26, rect.origin.y, _leftBusLabel.frame.size.width, _leftBusLabel.frame.size.height);
     
     CGSize size = CGSizeMake(190, 700);
@@ -253,8 +253,8 @@ CGRect busImageViewOriginalFrame;
         _descriptionImageView.frame = rect;
         rect = CGRectZero;
         _descriptionLabel.text = [self.base.description objectAtIndex:index];
-        NSLog(@"%f,%f",_descriptionLabel.frame.origin.x,_descriptionLabel.frame.origin.y);
-        NSLog(@"%f,%f",_descriptionImageView.frame.origin.x,_descriptionImageView.frame.origin.y);
+//        NSLog(@"%f,%f",_descriptionLabel.frame.origin.x,_descriptionLabel.frame.origin.y);
+//        NSLog(@"%f,%f",_descriptionImageView.frame.origin.x,_descriptionImageView.frame.origin.y);
 
     }
 }

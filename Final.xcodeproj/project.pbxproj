@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C09361B172F7561001CC960 /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C09361A172F7561001CC960 /* FoodViewController.m */; };
+		5C093624172F7C6A001CC960 /* hailijian@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C09361E172F7C6A001CC960 /* hailijian@2x.jpg */; };
+		5C093625172F7C6A001CC960 /* jinyinbao@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C09361F172F7C6A001CC960 /* jinyinbao@2x.jpg */; };
+		5C093626172F7C6A001CC960 /* shachamian@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C093620172F7C6A001CC960 /* shachamian@2x.jpg */; };
+		5C093627172F7C6A001CC960 /* shaoxiancao@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C093621172F7C6A001CC960 /* shaoxiancao@2x.jpg */; };
+		5C093628172F7C6A001CC960 /* tusundong@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C093622172F7C6A001CC960 /* tusundong@2x.jpg */; };
+		5C09362A172F7CA1001CC960 /* foodInformations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C093629172F7CA1001CC960 /* foodInformations.plist */; };
+		5C09362C172F7E21001CC960 /* dachang@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C09362B172F7E21001CC960 /* dachang@2x.jpg */; };
 		5C18DCDB172C112100C916B3 /* zhangsanfeng2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCC7172C112100C916B3 /* zhangsanfeng2.jpg */; };
 		5C18DCDC172C112100C916B3 /* zhangsanfeng2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCC8172C112100C916B3 /* zhangsanfeng2@2x.jpg */; };
 		5C18DCDD172C112100C916B3 /* zhangsanfeng1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C18DCC9172C112100C916B3 /* zhangsanfeng1.jpg */; };
@@ -97,7 +105,6 @@
 		5C19B5BE172ED63000AEF6F7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C19B5BB172ED63000AEF6F7 /* Default-568h@2x.png */; };
 		5C19B5C2172EDA6C00AEF6F7 /* iCon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C19B5C1172EDA6C00AEF6F7 /* iCon@2x.png */; };
 		5C19B5C4172EDAAE00AEF6F7 /* iCon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C19B5C3172EDAAE00AEF6F7 /* iCon.png */; };
-		5C19B5C7172EDFC200AEF6F7 /* CustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C19B5C6172EDFC100AEF6F7 /* CustomTabBarItem.m */; };
 		5C19B5C9172EE18D00AEF6F7 /* More@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C19B5C8172EE18D00AEF6F7 /* More@2x.png */; };
 		5C19B5CB172EE19400AEF6F7 /* More.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C19B5CA172EE19400AEF6F7 /* More.png */; };
 		5C3D38AA171B26E0004C9B34 /* ScenicDetailNanputuo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D38A9171B26E0004C9B34 /* ScenicDetailNanputuo.m */; };
@@ -110,6 +117,14 @@
 		5C3D38C2171B276D004C9B34 /* ScenicDetailChenjiageng.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D38C1171B276D004C9B34 /* ScenicDetailChenjiageng.m */; };
 		5C3D38C5171B2779004C9B34 /* ScenicDetailHaiwan.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D38C4171B2779004C9B34 /* ScenicDetailHaiwan.m */; };
 		5C3D38C8171B278A004C9B34 /* ScenicDetailJimei.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D38C7171B278A004C9B34 /* ScenicDetailJimei.m */; };
+		5C576179172FB1CA009E35EA /* weibo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C576178172FB1CA009E35EA /* weibo@2x.png */; };
+		5C57617B172FB207009E35EA /* weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C57617A172FB207009E35EA /* weibo.png */; };
+		5C57617D172FB3E4009E35EA /* iphone_mail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C57617C172FB3E4009E35EA /* iphone_mail@2x.png */; };
+		5C57617F172FB415009E35EA /* iphone_mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C57617E172FB415009E35EA /* iphone_mail.png */; };
+		5C576182172FB984009E35EA /* renren.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C576180172FB984009E35EA /* renren.png */; };
+		5C576183172FB984009E35EA /* renren@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C576181172FB984009E35EA /* renren@2x.png */; };
+		5C576186172FBA5E009E35EA /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C576184172FBA5E009E35EA /* github.png */; };
+		5C576187172FBA5E009E35EA /* github@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C576185172FBA5E009E35EA /* github@2x.png */; };
 		5C69CCB717295C7C00811278 /* haoyueyuan2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C69CCB117295C7C00811278 /* haoyueyuan2.jpg */; };
 		5C69CCB817295C7C00811278 /* haoyueyuan3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C69CCB217295C7C00811278 /* haoyueyuan3.jpg */; };
 		5C69CCB917295C7C00811278 /* haoyueyuan1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C69CCB317295C7C00811278 /* haoyueyuan1.jpg */; };
@@ -137,6 +152,13 @@
 		5C989BFB171B15B300DB7E5A /* ScenicDetailZhongshanlu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C989BFA171B15B300DB7E5A /* ScenicDetailZhongshanlu.m */; };
 		5CCB5BB417185C6800654214 /* ScenicDetailBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB317185C6800654214 /* ScenicDetailBase.m */; };
 		5CCB5BB71718607200654214 /* ScenicDetailGulangyu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */; };
+		5CD94A05172F9B7A004A9BAB /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD94A04172F9B7A004A9BAB /* ShoppingViewController.m */; };
+		5CD94A07172F9C1D004A9BAB /* shoppingInformations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CD94A06172F9C1D004A9BAB /* shoppingInformations.plist */; };
+		5CD94A15172FA34F004A9BAB /* shopping_chenguanxi@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD94A11172FA34F004A9BAB /* shopping_chenguanxi@2x.jpg */; };
+		5CD94A16172FA34F004A9BAB /* shopping_huangshengji@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD94A12172FA34F004A9BAB /* shopping_huangshengji@2x.jpg */; };
+		5CD94A17172FA34F004A9BAB /* shopping_zhangsanfeng@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD94A13172FA34F004A9BAB /* shopping_zhangsanfeng@2x.jpg */; };
+		5CD94A18172FA34F004A9BAB /* shopping_zhaoxiaojie@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CD94A14172FA34F004A9BAB /* shopping_zhaoxiaojie@2x.jpg */; };
+		5CD94A1E172FAA8C004A9BAB /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD94A1D172FAA8C004A9BAB /* MoreViewController.m */; };
 		5CE558AA172D51E2008EC2D3 /* wulaofeng1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */; };
 		5CE558AB172D51E2008EC2D3 /* wulaofeng1@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */; };
 		5CE558AC172D51E2008EC2D3 /* wulaofeng2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */; };
@@ -211,6 +233,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C093619172F7561001CC960 /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		5C09361A172F7561001CC960 /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
+		5C09361E172F7C6A001CC960 /* hailijian@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hailijian@2x.jpg"; sourceTree = "<group>"; };
+		5C09361F172F7C6A001CC960 /* jinyinbao@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jinyinbao@2x.jpg"; sourceTree = "<group>"; };
+		5C093620172F7C6A001CC960 /* shachamian@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shachamian@2x.jpg"; sourceTree = "<group>"; };
+		5C093621172F7C6A001CC960 /* shaoxiancao@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shaoxiancao@2x.jpg"; sourceTree = "<group>"; };
+		5C093622172F7C6A001CC960 /* tusundong@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tusundong@2x.jpg"; sourceTree = "<group>"; };
+		5C093629172F7CA1001CC960 /* foodInformations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = foodInformations.plist; sourceTree = "<group>"; };
+		5C09362B172F7E21001CC960 /* dachang@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dachang@2x.jpg"; sourceTree = "<group>"; };
 		5C18DCC7172C112100C916B3 /* zhangsanfeng2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangsanfeng2.jpg; sourceTree = "<group>"; };
 		5C18DCC8172C112100C916B3 /* zhangsanfeng2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zhangsanfeng2@2x.jpg"; sourceTree = "<group>"; };
 		5C18DCC9172C112100C916B3 /* zhangsanfeng1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhangsanfeng1.jpg; sourceTree = "<group>"; };
@@ -303,8 +334,6 @@
 		5C19B5BB172ED63000AEF6F7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5C19B5C1172EDA6C00AEF6F7 /* iCon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iCon@2x.png"; path = "../iCon@2x.png"; sourceTree = "<group>"; };
 		5C19B5C3172EDAAE00AEF6F7 /* iCon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iCon.png; path = ../iCon.png; sourceTree = "<group>"; };
-		5C19B5C5172EDFC000AEF6F7 /* CustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBarItem.h; path = ../CustomTabBarItem.h; sourceTree = "<group>"; };
-		5C19B5C6172EDFC100AEF6F7 /* CustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTabBarItem.m; path = ../CustomTabBarItem.m; sourceTree = "<group>"; };
 		5C19B5C8172EE18D00AEF6F7 /* More@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "More@2x.png"; sourceTree = "<group>"; };
 		5C19B5CA172EE19400AEF6F7 /* More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.png; sourceTree = "<group>"; };
 		5C3D38A8171B26E0004C9B34 /* ScenicDetailNanputuo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailNanputuo.h; sourceTree = "<group>"; };
@@ -327,6 +356,14 @@
 		5C3D38C4171B2779004C9B34 /* ScenicDetailHaiwan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailHaiwan.m; sourceTree = "<group>"; };
 		5C3D38C6171B278A004C9B34 /* ScenicDetailJimei.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailJimei.h; sourceTree = "<group>"; };
 		5C3D38C7171B278A004C9B34 /* ScenicDetailJimei.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailJimei.m; sourceTree = "<group>"; };
+		5C576178172FB1CA009E35EA /* weibo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weibo@2x.png"; sourceTree = "<group>"; };
+		5C57617A172FB207009E35EA /* weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = weibo.png; path = "Tab Bar图标/weibo.png"; sourceTree = "<group>"; };
+		5C57617C172FB3E4009E35EA /* iphone_mail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone_mail@2x.png"; sourceTree = "<group>"; };
+		5C57617E172FB415009E35EA /* iphone_mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_mail.png; sourceTree = "<group>"; };
+		5C576180172FB984009E35EA /* renren.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = renren.png; sourceTree = "<group>"; };
+		5C576181172FB984009E35EA /* renren@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "renren@2x.png"; sourceTree = "<group>"; };
+		5C576184172FBA5E009E35EA /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		5C576185172FBA5E009E35EA /* github@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github@2x.png"; sourceTree = "<group>"; };
 		5C69CCB117295C7C00811278 /* haoyueyuan2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haoyueyuan2.jpg; sourceTree = "<group>"; };
 		5C69CCB217295C7C00811278 /* haoyueyuan3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haoyueyuan3.jpg; sourceTree = "<group>"; };
 		5C69CCB317295C7C00811278 /* haoyueyuan1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haoyueyuan1.jpg; sourceTree = "<group>"; };
@@ -357,6 +394,15 @@
 		5CCB5BB317185C6800654214 /* ScenicDetailBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailBase.m; sourceTree = "<group>"; };
 		5CCB5BB51718607100654214 /* ScenicDetailGulangyu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailGulangyu.h; sourceTree = "<group>"; };
 		5CCB5BB61718607100654214 /* ScenicDetailGulangyu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailGulangyu.m; sourceTree = "<group>"; };
+		5CD94A03172F9B7A004A9BAB /* ShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
+		5CD94A04172F9B7A004A9BAB /* ShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
+		5CD94A06172F9C1D004A9BAB /* shoppingInformations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shoppingInformations.plist; sourceTree = "<group>"; };
+		5CD94A11172FA34F004A9BAB /* shopping_chenguanxi@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shopping_chenguanxi@2x.jpg"; sourceTree = "<group>"; };
+		5CD94A12172FA34F004A9BAB /* shopping_huangshengji@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shopping_huangshengji@2x.jpg"; sourceTree = "<group>"; };
+		5CD94A13172FA34F004A9BAB /* shopping_zhangsanfeng@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shopping_zhangsanfeng@2x.jpg"; sourceTree = "<group>"; };
+		5CD94A14172FA34F004A9BAB /* shopping_zhaoxiaojie@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shopping_zhaoxiaojie@2x.jpg"; sourceTree = "<group>"; };
+		5CD94A1C172FAA8C004A9BAB /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		5CD94A1D172FAA8C004A9BAB /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		5CE55896172D51E2008EC2D3 /* wulaofeng1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng1.jpg; sourceTree = "<group>"; };
 		5CE55897172D51E2008EC2D3 /* wulaofeng1@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wulaofeng1@2x.jpg"; sourceTree = "<group>"; };
 		5CE55898172D51E2008EC2D3 /* wulaofeng2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wulaofeng2.jpg; sourceTree = "<group>"; };
@@ -414,7 +460,7 @@
 		84AA7A8F1717F6740006092F /* ScenicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailViewController.h; sourceTree = "<group>"; };
 		84AA7A901717F6740006092F /* ScenicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScenicDetailViewController.m; sourceTree = "<group>"; };
 		84AA7A961717F8FB0006092F /* ScenicDetailWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScenicDetailWords.h; sourceTree = "<group>"; };
-		84D2FF4617092C6400F20E72 /* Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Final.app; path = "厦门旅游软件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D2FF4617092C6400F20E72 /* 厦门旅游软件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "厦门旅游软件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D2FF4917092C6400F20E72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84D2FF4B17092C6400F20E72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84D2FF4D17092C6400F20E72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -457,6 +503,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C09361C172F7C6A001CC960 /* 美食 */ = {
+			isa = PBXGroup;
+			children = (
+				5C09362B172F7E21001CC960 /* dachang@2x.jpg */,
+				5C093620172F7C6A001CC960 /* shachamian@2x.jpg */,
+				5C09361E172F7C6A001CC960 /* hailijian@2x.jpg */,
+				5C09361F172F7C6A001CC960 /* jinyinbao@2x.jpg */,
+				5C093621172F7C6A001CC960 /* shaoxiancao@2x.jpg */,
+				5C093622172F7C6A001CC960 /* tusundong@2x.jpg */,
+			);
+			path = "美食";
+			sourceTree = "<group>";
+		};
+		5C09362D172F835C001CC960 /* 订制UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C19B583172E8A9B00AEF6F7 /* CustomTableViewCell.h */,
+				5C19B584172E8A9B00AEF6F7 /* CustomTableViewCell.m */,
+			);
+			name = "订制UITableViewCell";
+			sourceTree = "<group>";
+		};
 		5C18DCC6172C112100C916B3 /* 张三疯 */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,6 +655,8 @@
 				84D2FFA6170978AA00F20E72 /* Informations.m */,
 				84D2FFA31709769400F20E72 /* scenicInformations.plist */,
 				5C19B586172EB71800AEF6F7 /* hotelInformations.plist */,
+				5C093629172F7CA1001CC960 /* foodInformations.plist */,
+				5CD94A06172F9C1D004A9BAB /* shoppingInformations.plist */,
 			);
 			name = "plist文件处理";
 			sourceTree = "<group>";
@@ -764,6 +834,17 @@
 			name = "中山路";
 			sourceTree = "<group>";
 		};
+		5CD94A10172FA34F004A9BAB /* 购物 */ = {
+			isa = PBXGroup;
+			children = (
+				5CD94A11172FA34F004A9BAB /* shopping_chenguanxi@2x.jpg */,
+				5CD94A12172FA34F004A9BAB /* shopping_huangshengji@2x.jpg */,
+				5CD94A13172FA34F004A9BAB /* shopping_zhangsanfeng@2x.jpg */,
+				5CD94A14172FA34F004A9BAB /* shopping_zhaoxiaojie@2x.jpg */,
+			);
+			path = "购物";
+			sourceTree = "<group>";
+		};
 		5CE55895172D51E2008EC2D3 /* 五老峰 */ = {
 			isa = PBXGroup;
 			children = (
@@ -807,8 +888,6 @@
 			isa = PBXGroup;
 			children = (
 				5C19B58C172ED06500AEF6F7 /* 住宿 */,
-				5C19B583172E8A9B00AEF6F7 /* CustomTableViewCell.h */,
-				5C19B584172E8A9B00AEF6F7 /* CustomTableViewCell.m */,
 				5C19B580172E8A7F00AEF6F7 /* HotelViewController.h */,
 				5C19B581172E8A7F00AEF6F7 /* HotelViewController.m */,
 			);
@@ -818,6 +897,9 @@
 		5CE558BD172D5CF0008EC2D3 /* 美食 */ = {
 			isa = PBXGroup;
 			children = (
+				5C09361C172F7C6A001CC960 /* 美食 */,
+				5C093619172F7561001CC960 /* FoodViewController.h */,
+				5C09361A172F7561001CC960 /* FoodViewController.m */,
 			);
 			name = "美食";
 			sourceTree = "<group>";
@@ -825,6 +907,9 @@
 		5CE558BE172D5CF5008EC2D3 /* 购物 */ = {
 			isa = PBXGroup;
 			children = (
+				5CD94A10172FA34F004A9BAB /* 购物 */,
+				5CD94A03172F9B7A004A9BAB /* ShoppingViewController.h */,
+				5CD94A04172F9B7A004A9BAB /* ShoppingViewController.m */,
 			);
 			name = "购物";
 			sourceTree = "<group>";
@@ -832,6 +917,16 @@
 		5CE558BF172D5CFA008EC2D3 /* 更多 */ = {
 			isa = PBXGroup;
 			children = (
+				5C576184172FBA5E009E35EA /* github.png */,
+				5C576185172FBA5E009E35EA /* github@2x.png */,
+				5C576180172FB984009E35EA /* renren.png */,
+				5C576181172FB984009E35EA /* renren@2x.png */,
+				5C57617E172FB415009E35EA /* iphone_mail.png */,
+				5C57617C172FB3E4009E35EA /* iphone_mail@2x.png */,
+				5C576178172FB1CA009E35EA /* weibo@2x.png */,
+				5C57617A172FB207009E35EA /* weibo.png */,
+				5CD94A1C172FAA8C004A9BAB /* MoreViewController.h */,
+				5CD94A1D172FAA8C004A9BAB /* MoreViewController.m */,
 			);
 			name = "更多";
 			sourceTree = "<group>";
@@ -928,6 +1023,8 @@
 		84AA7A8E1717E6F10006092F /* 景点子类 */ = {
 			isa = PBXGroup;
 			children = (
+				84AA7A8F1717F6740006092F /* ScenicDetailViewController.h */,
+				84AA7A901717F6740006092F /* ScenicDetailViewController.m */,
 				5C19B54D172E7FA500AEF6F7 /* logo */,
 				84AA7A961717F8FB0006092F /* ScenicDetailWords.h */,
 				84AA7A951717F8AA0006092F /* 鼓浪屿 */,
@@ -971,7 +1068,7 @@
 		84D2FF4717092C6400F20E72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84D2FF4617092C6400F20E72 /* Final.app */,
+				84D2FF4617092C6400F20E72 /* 厦门旅游软件.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -990,6 +1087,7 @@
 		84D2FF4F17092C6400F20E72 /* Final */ = {
 			isa = PBXGroup;
 			children = (
+				5C09362D172F835C001CC960 /* 订制UITableViewCell */,
 				5C19B58B172EC1C300AEF6F7 /* plist文件处理 */,
 				84D2FF9C170975CF00F20E72 /* 景点 */,
 				5CE558BC172D5CC6008EC2D3 /* 住宿 */,
@@ -1024,8 +1122,6 @@
 		84D2FF731709651200F20E72 /* Tab Bar图标 */ = {
 			isa = PBXGroup;
 			children = (
-				5C19B5C5172EDFC000AEF6F7 /* CustomTabBarItem.h */,
-				5C19B5C6172EDFC100AEF6F7 /* CustomTabBarItem.m */,
 				84D2FF741709651200F20E72 /* PNG-30x30px */,
 				84D2FF7D1709651200F20E72 /* PNG-60x60px */,
 			);
@@ -1063,8 +1159,6 @@
 				84AA7A8E1717E6F10006092F /* 景点子类 */,
 				5CCB5BB217185C6800654214 /* ScenicDetailBase.h */,
 				5CCB5BB317185C6800654214 /* ScenicDetailBase.m */,
-				84AA7A8F1717F6740006092F /* ScenicDetailViewController.h */,
-				84AA7A901717F6740006092F /* ScenicDetailViewController.m */,
 				84D2FFA01709765100F20E72 /* ScenicViewController.h */,
 				84D2FFA11709765100F20E72 /* ScenicViewController.m */,
 			);
@@ -1101,7 +1195,7 @@
 			);
 			name = "厦门旅游软件";
 			productName = Final;
-			productReference = 84D2FF4617092C6400F20E72 /* Final.app */;
+			productReference = 84D2FF4617092C6400F20E72 /* 厦门旅游软件.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1308,6 +1402,26 @@
 				5C19B5C4172EDAAE00AEF6F7 /* iCon.png in Resources */,
 				5C19B5C9172EE18D00AEF6F7 /* More@2x.png in Resources */,
 				5C19B5CB172EE19400AEF6F7 /* More.png in Resources */,
+				5C093624172F7C6A001CC960 /* hailijian@2x.jpg in Resources */,
+				5C093625172F7C6A001CC960 /* jinyinbao@2x.jpg in Resources */,
+				5C093626172F7C6A001CC960 /* shachamian@2x.jpg in Resources */,
+				5C093627172F7C6A001CC960 /* shaoxiancao@2x.jpg in Resources */,
+				5C093628172F7C6A001CC960 /* tusundong@2x.jpg in Resources */,
+				5C09362A172F7CA1001CC960 /* foodInformations.plist in Resources */,
+				5C09362C172F7E21001CC960 /* dachang@2x.jpg in Resources */,
+				5CD94A07172F9C1D004A9BAB /* shoppingInformations.plist in Resources */,
+				5CD94A15172FA34F004A9BAB /* shopping_chenguanxi@2x.jpg in Resources */,
+				5CD94A16172FA34F004A9BAB /* shopping_huangshengji@2x.jpg in Resources */,
+				5CD94A17172FA34F004A9BAB /* shopping_zhangsanfeng@2x.jpg in Resources */,
+				5CD94A18172FA34F004A9BAB /* shopping_zhaoxiaojie@2x.jpg in Resources */,
+				5C576179172FB1CA009E35EA /* weibo@2x.png in Resources */,
+				5C57617B172FB207009E35EA /* weibo.png in Resources */,
+				5C57617D172FB3E4009E35EA /* iphone_mail@2x.png in Resources */,
+				5C57617F172FB415009E35EA /* iphone_mail.png in Resources */,
+				5C576182172FB984009E35EA /* renren.png in Resources */,
+				5C576183172FB984009E35EA /* renren@2x.png in Resources */,
+				5C576186172FBA5E009E35EA /* github.png in Resources */,
+				5C576187172FBA5E009E35EA /* github@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1341,7 +1455,9 @@
 				847761F51726301D009049B8 /* SDSegmentedControl.m in Sources */,
 				5C19B582172E8A7F00AEF6F7 /* HotelViewController.m in Sources */,
 				5C19B585172E8A9B00AEF6F7 /* CustomTableViewCell.m in Sources */,
-				5C19B5C7172EDFC200AEF6F7 /* CustomTabBarItem.m in Sources */,
+				5C09361B172F7561001CC960 /* FoodViewController.m in Sources */,
+				5CD94A05172F9B7A004A9BAB /* ShoppingViewController.m in Sources */,
+				5CD94A1E172FAA8C004A9BAB /* MoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1429,7 +1545,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Final/Final-Prefix.pch";
 				INFOPLIST_FILE = "Final/Final-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1441,7 +1557,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Final/Final-Prefix.pch";
 				INFOPLIST_FILE = "Final/Final-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -42,9 +42,9 @@
 	// Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor blackColor];
     
-    NSLog(@"imagesArray : %@",_imagesArray);
+//    NSLog(@"imagesArray : %@",_imagesArray);
     CGRect rect = CGRectMake(0, 0, self.view.bounds.size.width, 460);
-    NSLog(@"%f",self.view.bounds.size.height);
+//    NSLog(@"%f",self.view.bounds.size.height);
     _scrollView = [[APScrollView alloc] initWithFrame:rect];
     _scrollView.contentSize = CGSizeMake(self.view.frame.size.width * 3, self.scrollView.frame.size.height);
     _scrollView.pagingEnabled = YES;
@@ -67,7 +67,7 @@
     _scrollView.contentOffset= point;
     [self.view addSubview:_scrollView];
 
-    NSLog(@"%f,%f",point.x,point.y);
+//    NSLog(@"%f,%f",point.x,point.y);
 
     _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(displayNavigation)];
     [self.scrollView addGestureRecognizer:_tapGesture];

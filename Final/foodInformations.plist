@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>foodName</key>
+	<array>
+		<string>沙茶面</string>
+		<string>大肠包小肠</string>
+		<string>海蛎煎</string>
+		<string>金银包</string>
+		<string>烧仙草</string>
+		<string>土笋冻</string>
+	</array>
+	<key>restaurant</key>
+	<array>
+		<string>乌东沙茶面</string>
+		<string>有台湾身份证的路边摊</string>
+		<string>康家龙头海蛎煎</string>
+		<string>大街小巷，鼓浪屿最多</string>
+		<string>八婆婆烧仙草</string>
+		<string>老街土笋冻</string>
+	</array>
+	<key>price</key>
+	<array>
+		<string>30元</string>
+		<string>8元</string>
+		<string>13元</string>
+		<string>3元</string>
+		<string>8元</string>
+		<string>5元</string>
+	</array>
+	<key>address</key>
+	<array>
+		<string>思明区民族路60号</string>
+		<string>鼓浪屿</string>
+		<string>思明区龙头路189号</string>
+		<string>鼓浪屿</string>
+		<string>中山路</string>
+		<string>思明区中山路</string>
+	</array>
+	<key>picture</key>
+	<array>
+		<string>shachamian.jpg</string>
+		<string>dachang.jpg</string>
+		<string>hailijian.jpg</string>
+		<string>jinyinbao.jpg</string>
+		<string>shaoxiancao.jpg</string>
+		<string>tusundong.jpg</string>
+	</array>
+</dict>
+</plist>

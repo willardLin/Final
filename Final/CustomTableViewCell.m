@@ -14,16 +14,6 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-//        CGRect rect = CGRectMake(0, 5, 320, 20);
-//        _bigTitle = [[UILabel alloc] initWithFrame:rect];
-//        _title.frame = rect;
-        _bigTitle.backgroundColor = [UIColor blackColor];
-        [self.contentView addSubview:_bigTitle];
-//        [self.contentView addSubview:_bigTitle];
-//        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0,5,320,40)];
-//        label.text = @"你全家";
-//        [self.contentView addSubview:label];
-//        [_phoneButton setTitle:@"0576-87217253" forState:UIControlStateNormal];
     }
     return self;
 }

@@ -12,5 +12,5 @@
 @property (nonatomic,strong) Informations *hotel;
 @property (assign) NSInteger hotelCount;
 @property (nonatomic,strong) NSDictionary       *hotelDictionary;
-
+@property (nonatomic,strong) NSMutableArray      *imageArray;
 @end

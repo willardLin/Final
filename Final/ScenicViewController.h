@@ -17,4 +17,6 @@
 @property (nonatomic,strong) NSArray            *scenicArray;
 @property (nonatomic,strong) NSDictionary       *scenicDictionary;
 @property (nonatomic,strong) ScenicDetailBase   *base;
+@property (nonatomic,strong) NSMutableArray      *imageArray;
+
 @end

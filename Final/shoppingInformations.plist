@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>shoppingName</key>
+	<array>
+		<string>陈罐西式茶货铺</string>
+		<string>赵小姐的店</string>
+		<string>张三疯欧式奶茶铺子</string>
+		<string>黄胜记</string>
+	</array>
+	<key>phoneNumber</key>
+	<array>
+		<string>0592-2089822</string>
+		<string>0592-2199306</string>
+		<string>0592-2063588</string>
+		<string>0592-2069217</string>
+	</array>
+	<key>price</key>
+	<array>
+		<string>25元起</string>
+		<string>25元起</string>
+		<string>30元起</string>
+		<string>10元起</string>
+	</array>
+	<key>address</key>
+	<array>
+		<string>鼓浪屿龙头路282号(赵小姐的店对面)</string>
+		<string>鼓浪屿龙头路298号</string>
+		<string>鼓浪屿龙头路266号</string>
+		<string>思明区龙头路95号</string>
+	</array>
+	<key>picture</key>
+	<array>
+		<string>shopping_chenguanxi.jpg</string>
+		<string>shopping_zhaoxiaojie.jpg</string>
+		<string>shopping_zhangsanfeng.jpg</string>
+		<string>shopping_huangshengji.jpg</string>
+	</array>
+</dict>
+</plist>
